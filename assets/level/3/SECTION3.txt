@@ -1,0 +1,391 @@
+[Section 3]
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+;----------------------
+
+[Enemy 1]
+time = 300
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+;----------------------
+
+[Enemy 1]
+time = 300
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+;----------------------
+
+[Enemy 1]
+time = 300
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.05,0.05
+p2.pos = 0.0,0.06
+p3.pos = 0.05,0.07
+p4.pos = 0.1,0.08
+p7.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 1.05,0.05
+p2.pos = 1.0,0.06
+p3.pos = 0.95,0.07
+p4.pos = 0.9,0.08
+p7.pos = -0.2,0.2
+s1.time = 10
+s1.name = "enemy_laser_aimed"
+s1.frequency = 1, 60
+s2.time = 999
+power = 1

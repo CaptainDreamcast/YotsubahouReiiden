@@ -1,0 +1,7 @@
+
+
+[Section 2]
+
+[Boss]
+name = "Shii"
+time = 20

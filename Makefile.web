@@ -1,0 +1,10 @@
+include Makefile.common
+OBJS = $(OBJS) assets_web.o
+
+all: complete
+
+clean_user:
+	
+PRISM_PATH = ..\addons\prism
+ADDITIONAL_PRELOADS = --preload-file assets
+include ../addons/prism/Makefile.commonweb

@@ -1,0 +1,305 @@
+[Header]
+level = 1
+
+[Shot yournamehere_base]
+animation = 11
+radius = 1
+damage = 2
+gimmick = "yournamehereStraight"
+
+[Shot yournamehere_straight]
+animation = 12
+radius = 1
+damage = 3
+gimmick = "yournamehereStrong"
+
+[Shot yournamehere_homing]
+animation = 10
+radius = 1
+damage = 2
+gimmick = "yournamehereHoming"
+
+[Shot yournamehere_straight_1]
+subshot1.offset = -2,-5
+subshot1.name = "yournamehere_base"
+subshot2.offset = 2,-5
+subshot2.name = "yournamehere_base"
+subshot3.offset = 0,-10
+subshot3.name = "yournamehere_straight"
+
+[Shot yournamehere_straight_2]
+subshot1.offset = -2,-5
+subshot1.name = "yournamehere_base"
+subshot2.offset = 2,-5
+subshot2.name = "yournamehere_base"
+subshot3.offset = -5,-10
+subshot3.name = "yournamehere_straight"
+subshot4.offset = 5,-10
+subshot4.name = "yournamehere_straight"
+
+[Shot yournamehere_straight_3]
+subshot1.offset = -2,-5
+subshot1.name = "yournamehere_base"
+subshot2.offset = 2,-5
+subshot2.name = "yournamehere_base"
+subshot3.offset = -9,-4
+subshot3.name = "yournamehere_straight"
+subshot4.offset = 9,-4
+subshot4.name = "yournamehere_straight"
+subshot5.offset = 0,-10
+subshot5.name = "yournamehere_straight"
+
+[Shot yournamehere_straight_4]
+subshot1.offset = -2,-5
+subshot1.name = "yournamehere_base"
+subshot2.offset = 2,-5
+subshot2.name = "yournamehere_base"
+subshot3.offset = -4,-10
+subshot3.name = "yournamehere_straight"
+subshot4.offset = 4,-10
+subshot4.name = "yournamehere_straight"
+subshot5.offset = -12,-3
+subshot5.name = "yournamehere_straight"
+subshot6.offset = 12,-3
+subshot6.name = "yournamehere_straight"
+
+[Shot yournamehere_homing_1]
+subshot1.offset = -2,-5
+subshot1.name = "yournamehere_base"
+subshot2.offset = 2,-5
+subshot2.name = "yournamehere_base"
+subshot3.offset = 0,-10
+subshot3.name = "yournamehere_homing"
+
+[Shot yournamehere_homing_2]
+subshot1.offset = -2,-5
+subshot1.name = "yournamehere_base"
+subshot2.offset = 2,-5
+subshot2.name = "yournamehere_base"
+subshot3.offset = -5,-10
+subshot3.name = "yournamehere_homing"
+subshot4.offset = 5,-10
+subshot4.name = "yournamehere_homing"
+
+[Shot yournamehere_homing_3]
+subshot1.offset = -2,-5
+subshot1.name = "yournamehere_base"
+subshot2.offset = 2,-5
+subshot2.name = "yournamehere_base"
+subshot3.offset = -9,-4
+subshot3.name = "yournamehere_homing"
+subshot4.offset = 9,-4
+subshot4.name = "yournamehere_homing"
+subshot5.offset = 0,-10
+subshot5.name = "yournamehere_homing"
+
+[Shot yournamehere_homing_4]
+subshot1.offset = -2,-5
+subshot1.name = "yournamehere_base"
+subshot2.offset = 2,-5
+subshot2.name = "yournamehere_base"
+subshot3.offset = -4,-10
+subshot3.name = "yournamehere_homing"
+subshot4.offset = 4,-10
+subshot4.name = "yournamehere_homing"
+subshot5.offset = -12,-3
+subshot5.name = "yournamehere_homing"
+subshot6.offset = 12,-3
+subshot6.name = "yournamehere_homing"
+
+
+[Shot enemy_1]
+animation = 1000
+radius = 1
+gimmick = "enemyStraight"
+
+[Shot enemy_mid_aimed]
+animation = 1001
+radius = 3
+gimmick = "enemyAimed"
+
+[Shot enemy_mid_straight]
+animation = 1001
+radius = 3
+gimmick = "enemyStraight"
+
+[Shot enemy_mid_aimed_plus_10]
+animation = 1001
+radius = 3
+gimmick = "enemyAimedPlus10"
+
+[Shot enemy_mid_aimed_plus_20]
+animation = 1001
+radius = 3
+gimmick = "enemyAimedPlus20"
+
+[Shot enemy_mid_aimed_plus_340]
+animation = 1001
+radius = 3
+gimmick = "enemyAimedPlus340"
+
+[Shot enemy_mid_aimed_plus_350]
+animation = 1001
+radius = 3
+gimmick = "enemyAimedPlus350"
+
+[Shot enemy_laser]
+animation = 1003
+radius = 3
+
+[Shot enemy_laser_aimed]
+gimmick = "enemyLaserAimed"
+
+[Shot enemy_laser_aimed_slow]
+gimmick = "enemyLaserAimedSlow"
+
+[Shot enemy_laser_straight]
+gimmick = "enemyLaserStraight"
+
+[Shot enemy_five_aimed]
+subshot1.name = "enemy_mid_aimed"
+subshot2.name = "enemy_mid_aimed_plus_10"
+subshot3.name = "enemy_mid_aimed_plus_20"
+subshot4.name = "enemy_mid_aimed_plus_340"
+subshot5.name = "enemy_mid_aimed_plus_350"
+
+
+[Shot enemy_five_aimed_slow]
+gimmick = "enemyFiveAimedSlow"
+
+[Shot enemy_circle_mid]
+gimmick = "enemyCircleMid"
+
+[Shot enemy_pcb]
+gimmick = "enemyPCB"
+
+[Shot enemy_mid_lower_half]
+animation = 1001
+radius = 3
+gimmick = "enemyLowerHalf"
+
+[Shot enemy_slim_lower_half]
+animation = 1002
+radius = 2
+gimmick = "enemyLowerHalf"
+
+[Shot enemy_slim_random]
+animation = 1002
+radius = 2
+gimmick = "enemyRandom"
+
+[Shot enemy_mid_random]
+animation = 1001
+radius = 3
+gimmick = "enemyRandom"
+
+[Shot enemy_slim_slight_down_left]
+animation = 1002
+radius = 2
+gimmick = "enemySlightDownLeft"
+
+[Shot enemy_slim_slight_down_right]
+animation = 1002
+radius = 2
+gimmick = "enemySlightDownRight"
+
+[Shot enemy_slim_lower_half_slow]
+animation = 1002
+radius = 2
+gimmick = "enemyLowerHalfSlow"
+
+[Shot enemy_pink]
+animation = 1000
+radius = 1
+
+[Shot enemy_slim]
+animation = 1002
+radius = 2
+
+[Shot enemy_mid]
+animation = 1001
+radius = 3
+
+[Shot lily_white]
+gimmick = "enemyLilyWhite"
+
+[Shot barney1]
+gimmick = "barney1"
+
+[Shot ack1]
+gimmick = "ack1"
+
+[Shot acc_mid]
+gimmick = "accMid"
+
+[Shot acc_ns1]
+gimmick = "accNS1"
+
+[Shot acc_s1]
+gimmick = "accS1"
+
+[Shot acc_ns2]
+gimmick = "accNS2"
+
+[Shot acc_s2]
+gimmick = "accS2"
+
+[Shot acc_s3]
+gimmick = "accS3"
+
+[Shot woazn_ns]
+gimmick = "woaznNS"
+
+[Shot woazn_s]
+gimmick = "woaznS"
+
+[Shot aus_ns1]
+gimmick = "ausNS1"
+
+[Shot aus_s1]
+gimmick = "ausS1"
+
+[Shot aus_ns2]
+gimmick = "ausNS2"
+
+[Shot aus_s2]
+gimmick = "ausS2"
+
+[Shot aus_ns3]
+gimmick = "ausNS3"
+
+[Shot aus_s3_1]
+gimmick = "ausS31"
+
+[Shot aus_s3_2]
+gimmick = "ausS32"
+
+[Shot aus_s3_3]
+gimmick = "ausS33"
+
+[Shot aus_s3_4]
+gimmick = "ausS34"
+
+[Shot aus_s4]
+gimmick = "ausS4"
+
+[Shot shii_ns1]
+gimmick = "shiiNS1"
+
+[Shot shii_s1]
+gimmick = "shiiS1"
+
+[Shot shii_ns2]
+gimmick = "shiiNS2"
+
+[Shot shii_s2]
+gimmick = "shiiS2"
+
+[Shot shii_ns3]
+gimmick = "shiiNS3"
+
+[Shot shii_s3]
+gimmick = "shiiS3"
+
+[Shot shii_ns4]
+gimmick = "shiiNS4"

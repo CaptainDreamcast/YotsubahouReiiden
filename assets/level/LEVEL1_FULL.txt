@@ -1,0 +1,135 @@
+[Section 1]
+
+[Wait]
+time = 30
+duration = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -100,-100
+p2.pos = 150,200
+p3.pos = 400,-20
+s1.time = 60
+s1.name = "enemy_1"
+s1.frequency = 30, 40
+s2.time = 999
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -100,-100
+p2.pos = 150,200
+p3.pos = 400,-20
+s1.time = 60
+s1.name = "enemy_1"
+s1.frequency = 30, 40
+s2.time = 999
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -100,-100
+p2.pos = 150,200
+p3.pos = 400,-20
+s1.time = 60
+s1.name = "enemy_1"
+s1.frequency = 30, 40
+s2.time = 999
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -100,-100
+p2.pos = 150,200
+p3.pos = 400,-20
+s1.time = 60
+s1.name = "enemy_1"
+s1.frequency = 30, 40
+s2.time = 999
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -100,-100
+p2.pos = 150,200
+p3.pos = 400,-20
+s1.time = 60
+s1.name = "enemy_1"
+s1.frequency = 30, 40
+s2.time = 999
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -100,-100
+p2.pos = 150,200
+p3.pos = 400,-20
+s1.time = 60
+s1.name = "enemy_1"
+s1.frequency = 30, 40
+s2.time = 999
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -100,-100
+p2.pos = 150,200
+p3.pos = 400,-20
+s1.time = 60
+s1.name = "enemy_1"
+s1.frequency = 30, 40
+s2.time = 999
+
+[Section 1]
+
+[Wait]
+time = 30
+duration = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -100,-100
+p2.pos = 150,200
+p3.pos = 400,-20
+s1.time = 60
+s1.name = "enemy_1"
+s1.frequency = 30, 40
+s2.time = 999
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -100,-100
+p2.pos = 150,200
+p3.pos = 400,-20
+s1.time = 60
+s1.name = "enemy_1"
+s1.frequency = 30, 40
+s2.time = 999
+
+[Section 2]
+
+[Boss]
+name = "dummy"
+time = 20
+

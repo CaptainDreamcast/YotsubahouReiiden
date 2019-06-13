@@ -1,0 +1,201 @@
+[Section 3]
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 5
+p1.pos = 0.5,-.1
+p2.pos = 0.5,0.0
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.2
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.4
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.6
+p9.pos = 1.5,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 40
+s2.time = 99999
+power = 1
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 5
+p1.pos = 0.25,-.1
+p2.pos = 0.25,0.0
+p3.pos = 0.25,0.1
+p4.pos = 0.25,0.2
+p5.pos = 0.25,0.3
+p6.pos = 0.25,0.4
+p7.pos = 0.25,0.5
+p8.pos = 0.25,0.6
+p9.pos = 1.25,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 40
+s2.time = 99999
+power = 1
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 5
+p1.pos = 0.75,-.1
+p2.pos = 0.75,0.0
+p3.pos = 0.75,0.1
+p4.pos = 0.75,0.2
+p5.pos = 0.75,0.3
+p6.pos = 0.75,0.4
+p7.pos = 0.75,0.5
+p8.pos = 0.75,0.6
+p9.pos = 1.75,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 40
+s2.time = 99999
+power = 1
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 5
+p1.pos = 0.5,-.1
+p2.pos = 0.5,0.0
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.2
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.4
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.6
+p9.pos = 1.5,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 40
+s2.time = 99999
+power = 1
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 5
+p1.pos = 0.3,-.1
+p2.pos = 0.3,0.0
+p3.pos = 0.3,0.1
+p4.pos = 0.3,0.2
+p5.pos = 0.3,0.3
+p6.pos = 0.3,0.4
+p7.pos = 0.3,0.5
+p8.pos = 0.3,0.6
+p9.pos = 1.3,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 40
+s2.time = 99999
+power = 1
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 5
+p1.pos = 0.6,-.1
+p2.pos = 0.6,0.0
+p3.pos = 0.6,0.1
+p4.pos = 0.6,0.2
+p5.pos = 0.6,0.3
+p6.pos = 0.6,0.4
+p7.pos = 0.6,0.5
+p8.pos = 0.6,0.6
+p9.pos = 1.6,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 40
+s2.time = 99999
+power = 1
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 5
+p1.pos = 0.5,-.1
+p2.pos = 0.5,0.0
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.2
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.4
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.6
+p9.pos = 1.5,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 40
+s2.time = 99999
+power = 1
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 5
+p1.pos = 0.25,-.1
+p2.pos = 0.25,0.0
+p3.pos = 0.25,0.1
+p4.pos = 0.25,0.2
+p5.pos = 0.25,0.3
+p6.pos = 0.25,0.4
+p7.pos = 0.25,0.5
+p8.pos = 0.25,0.6
+p9.pos = 1.25,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 40
+s2.time = 99999
+power = 1
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 5
+p1.pos = 0.75,-.1
+p2.pos = 0.75,0.0
+p3.pos = 0.75,0.1
+p4.pos = 0.75,0.2
+p5.pos = 0.75,0.3
+p6.pos = 0.75,0.4
+p7.pos = 0.75,0.5
+p8.pos = 0.75,0.6
+p9.pos = 1.75,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 40
+s2.time = 99999
+power = 1
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 5
+p1.pos = 0.5,-.1
+p2.pos = 0.5,0.0
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.2
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.4
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.6
+p9.pos = 1.5,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 40
+s2.time = 99999
+power = 1

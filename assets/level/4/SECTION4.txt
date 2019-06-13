@@ -1,0 +1,17 @@
+[Section 1]
+
+[Enemy 1]
+time = 10
+name = "enemyBig"
+speed = 0.2
+radius = 5
+p1.pos = 0.0,-0.1
+p2.pos = 0.25,0.3
+p2.duration = 120
+p3.pos = 0.25,1.25
+s1.time = 120
+s1.name = "enemy_pcb"
+s1.frequency = 4
+s2.time = 999
+power = 10
+life = 30
