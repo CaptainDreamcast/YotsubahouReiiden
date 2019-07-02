@@ -14,6 +14,7 @@
 #include "debug.h"
 #include "levelintro.h"
 #include "bghandler.h"
+#include "inmenu.h"
 
 struct GameScreen {
 
@@ -21,7 +22,6 @@ struct GameScreen {
 		instantiateActor(getBlitzCameraHandler());
 
 		loadGameCollisions();
-		setPlayerName("YOURNAMEHERE");
 		instantiateActor(getLevelIntro());
 		instantiateActor(getUIHandler());
 		instantiateActor(getDialogHandler());
@@ -31,10 +31,18 @@ struct GameScreen {
 		instantiateActor(getLevelHandler());
 		instantiateActor(getPlayerHandler());
 		instantiateActor(getShotHandler());
-		//instantiateActor(getBGHandler());
+		instantiateActor(getBGHandler());
+		int id = instantiateActor(getInMenu());
+		setActorUnpausable(id);
 	}
 
-	void update() {}
+	void update()
+	{
+		if(!isInMenuActive() && hasPressedAbortFlank())
+		{
+			setPauseMenuActive();
+		}
+	}
 };
 
 EXPORT_SCREEN_CLASS(GameScreen);

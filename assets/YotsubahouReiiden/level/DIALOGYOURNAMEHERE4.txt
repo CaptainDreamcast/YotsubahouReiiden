@@ -1,0 +1,46 @@
+[Speaker yournamehere]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker hiro]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker fission]
+
+[Speaker ???]
+
+[DialogPre]
+start = normal,gone
+yournamehere: It's about time the final boss reveals himself.
+???: Hon hon hon!
+intro = 1
+hiro[normal]: Hon!
+fission: The final boss is probably behind hiro.
+yournamehere: No fission, I think the final boss possessed hiro.
+hiro: Admirable, mes deux moderateurs. However, vous etes too late.
+fission: The final boss is using a very elaborate hiro velinquotrist doll.
+hiro: Apres this catastrophe, je can implement even tougher regulations.
+yournamehere: It's hiro's evil twin brother.
+hiro: Et avec tougher regulations, there will be less posters de merde. Finalement, there will be more...
+yournamehere: ...butts!
+hiro: Oui, bu- NON NON NON, not butts, advertisers! Money! You of all people should comprehendre we need to get rid of bad posters, yournamehere!
+yournamehere: ...
+hiro: Obviously, je suis well aware you're not actually the /ck/ mod.
+yournamehere: ...
+hiro: Isn't that correcte, Monsieur /sp/ moderator.
+yournamehere: ...
+fission: No way! yournamehere is the legendary /sp/ moderator who was hated relentlessly throughout 2014 and 2015?!
+younamehere[normal]: ... It's in the past.
+younamehere: All I do these days is cook~
+yournamehere: But since you go around using my past so casually-
+yournamehere: Why don't I show you what exactly the /sp/ moderator can do?
+hiro: I WILL get rid of all the bad posteurs!
+yournamehere: Whether they like me or not, I will protect my friends!
+
+[DialogPost]
+start = normal, gone
+yournamehere: error

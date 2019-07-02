@@ -1,0 +1,36 @@
+[Speaker yournamehere]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker ACK]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker fission]
+
+[DialogPre]
+start = normal,gone
+yournamehere: Taking a trip around feels surprisingly nice~
+fission: Please remember that we're not taking a vacation!
+yournamehere: It's fine, it's fine.
+intro=1
+ACK[normal]: AKEMI! I'VE FOUND YOU!
+yournamehere: It's fine, it's fine.
+fission: It's obviously not fine!
+fission: That's Ack, the guy who hates character pairings so much he'd be a PhD if he published thesises about it!
+ACK: Talking to your sockpuppets again? I've long known you're in cahoots with the mods, Akemi!
+fission: He also thinks everyone he talks to is his arch-enemy Akemi.
+yournamehere: I am innocent, this man Akemi I'm talking to over the radio forced me to work on my day off~
+fission: yournameheeeeeereeeeee!
+ACK: Prepare yourself Akemi, I'll no longer stand by and watch you ruin this place!
+
+
+[DialogPost]
+start = normal,gone
+yournamehere: You don't have to worry about this place getting ruined or not. I hear the afterlife is nice all year round!
+fission: Well done, yournamehere!
+yournamehere: Thanks Akemi!
+fission: Will you stop.

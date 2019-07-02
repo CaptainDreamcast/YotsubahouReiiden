@@ -1,0 +1,41 @@
+[Header]
+Sprites = levels/INTRO.sff
+
+[STORYSTART]
+
+[Image 1]
+Group = 1
+Item = 0
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "Even though Aerolite fought like a lion, or at least jaguar, he was unable to convince hiro."
+
+[Text 1]
+Speaker = ""
+Text = "cygnus: "Bro!""
+
+[Text 1]
+Speaker = ""
+Text = "Aerolite: "I know, I know! We can't let it end like this.""
+
+[Text 1]
+Speaker = ""
+Text = "Aerolite: "Come on cygnus! Let's go through all those boards again in the same order with the same dialogue and do it just a tiny little bit better!""
+
+[Text 1]
+Speaker = ""
+Text = "cygnus: "Bro!""
+
+[Text 1]
+Speaker = ""
+Text = "Bad Ending #3 ~ Groundhog day to the 1CC"
+
+[Text 1]
+Speaker = ""
+Text = "Try beating the game without continues next time!"
+
+
+[Title]

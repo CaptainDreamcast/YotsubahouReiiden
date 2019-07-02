@@ -1,0 +1,49 @@
+[Speaker kinomod]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker hiro]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker ABIB]
+
+[DialogPre]
+start = normal,gone
+intro = 1
+hiro[normal]: Monsieur kami?!
+kinomod: Hiro!
+hiro: Qu'-est-ce que vous doing here?
+kinomod: I have banne all the bad peopleux, je suis en route to home, .
+hiro: DON'T COPY MY BROKEN FRENCH ACCENT!
+kinomod: What are you doing here, sir?
+ABIB: ... ami! Kami!
+kinomod: AKEMI?!
+ABIB: It's me, Abib you nunce! I was supposed to be your radio support!
+kinomod: I'm not Abib!
+ABIB: We found out who is REALLY responsible for freeing all the image board villains!
+ABIB: It was hi--- bzzzz--- bzzzzzzzzzz.
+kinomod: Hibzzzzzzz Bzzzzzz? Who is that? Abib? Akemi? Hello?
+hiro: This n'est pas important, monsieur kami. Vous should head home.
+kinomod: Bzzz represents bees, bees represent /z/, /z/ was deleted,
+kinomod: /z/ was deleted by an administrator, the previous administrator was the level 3 boss,
+kinomod: level 5 - level 3 is level 2, and the level 2 boss for Touhou 15 was a rabbit!
+kinomod: I HAVE FIGURED IT OUT!
+kinomod: HIRO! YOU ARE THE CULPRIT!
+hiro: Grrrrreux! Kami, I sauvais that your intellect was going to be my biggest hindrance!
+kami: I could have never have figured it out without Akemi's help!
+ABIB: Abib.
+kami: No, I am still not Abib.
+hiro: HOWEVER! My plan shall proceed as planned!
+hiro: Come, moderateur!
+hiro: Je will remold the site to my wishes!
+kinomod: I am still not really sure what's going on!
+
+[DialogPost]
+start = normal,gone
+kinomod: Everyone is in a weird mood today. Did something happen?
+kinomod: Wait, why am I here again?
+kinomod: Might as well call it a day and head to the front page to clock out.

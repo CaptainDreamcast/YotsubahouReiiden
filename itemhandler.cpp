@@ -5,6 +5,8 @@
 #include "uihandler.h"
 #include "collision.h"
 #include "player.h"
+#include "debug.h"
+#include "level.h"
 
 #define ITEM_Z 10
 
@@ -24,7 +26,7 @@ struct Item {
 		LIFE
 	};
 
-	Item(Position tPos, ItemType tType, int isHuge, int tID) {
+	Item(Position tPos, ItemType tType, int isHuge, int tID, Position tDirection = makePosition(0, 0.5, 0)) {
 		m_tType = tType;
 		m_isHuge = isHuge;
 		m_id = tID;
@@ -50,10 +52,10 @@ struct Item {
 		}
 		addBlitzMugenAnimationComponent(m_entityID, getUISprites(), getUIAnimations(), animation);
 		addBlitzCollisionComponent(m_entityID);
-		int collisionID = addBlitzCollisionCirc(m_entityID, getItemCollisionList(), makeCollisionCirc(makePosition(0, 0, 0), isHuge ? 10 : 5));
+		const int collisionID = addBlitzCollisionCirc(m_entityID, getItemCollisionList(), makeCollisionCirc(makePosition(0, 0, 0), isHuge ? 10 : 5));
 		addBlitzCollisionCB(m_entityID, collisionID, itemHitCB, this);
 		addBlitzPhysicsComponent(m_entityID);
-		addBlitzPhysicsVelocityY(m_entityID, 0.5);
+		addBlitzPhysicsVelocity(m_entityID, tDirection);
 	}
 
 	void setAutocollect() {
@@ -72,8 +74,19 @@ struct Item {
 		*p += delta * 0.2;
 	}
 
-	void update() {
+	void updateSpeed()
+	{
+		if (mIsAutocollected) return;
+		Position* v = getBlitzPhysicsVelocityReference(m_entityID);
+		v->y = std::min(v->y + 0.02, 0.5);
+		v->x *= 0.1;
+	}
+
+	int update() {
 		updateAutocollect();
+		updateSpeed();
+		const auto y = getBlitzEntityPositionY(m_entityID);
+		return y > getScreenPositionFromGamePositionY(1.2);
 	}
 
 	~Item() {
@@ -98,9 +111,7 @@ static void unloadItemHandler(void* tCaller) {
 }
 
 static void updateItemHandler(void* tCaller) {
-	for (auto& item : gItemHandler.mItems) {
-		item.second->update();
-	}
+	stl_int_map_remove_predicate(gItemHandler.mItems, &Item::update);
 }
 
 ActorBlueprint getItemHandler()
@@ -112,12 +123,18 @@ static void itemHitCB(void* tCaller, void* tCollisionData) {
 	(void)tCollisionData;
 	Item* item = (Item*)tCaller;
 
+
+	double t = 0;
+	double y = 0;
 	switch (item->m_tType) {
 	case Item::ItemType::POWER:
 		addPlayerPower(item->m_isHuge ? 10 : 1);
 		break;
 	case Item::ItemType::SCORE:
-		addPlayerScoreItem(item->m_isHuge ? 10 : 1);
+		y = getBlitzEntityPositionY(item->m_entityID);
+		t = 1 - (y / 240);
+		if (item->mIsAutocollected) t = 1;
+		addPlayerScoreItem(int((1 + t*2) * (item->m_isHuge ? 10 : 1)));
 		break;
 	case Item::ItemType::BOMB:
 		addPlayerBomb();
@@ -151,6 +168,14 @@ void addPowerItems(Position tPos, int tPower)
 
 }
 
+void addDeathPowerItems(Position tPos)
+{
+	int id = stl_int_map_get_id();
+	gItemHandler.mItems.insert(make_pair(id, make_unique<Item>(tPos + makePosition(-20, -20, 0), Item::ItemType::POWER, 1, id, makePosition(-5, -0.5, 0))));
+	id = stl_int_map_get_id();
+	gItemHandler.mItems.insert(make_pair(id, make_unique<Item>(tPos + makePosition(20, -20, 0), Item::ItemType::POWER, 1, id, makePosition(5, -0.5, 0))));
+}
+
 void addScoreItems(Position tPos, int tScore)
 {
 	while (tScore--) {
@@ -167,6 +192,14 @@ void addBombItem(Position tPos)
 	finalPos.z = randfrom(11.5, 12.5);
 	int id = stl_int_map_get_id();
 	gItemHandler.mItems.insert(make_pair(id, make_unique<Item>(finalPos, Item::ItemType::BOMB, 1, id)));
+}
+
+void addLifeItem(Position tPos)
+{
+	Position finalPos = tPos + makePosition(randfrom(-10, 10), randfrom(-10, 10), 0);
+	finalPos.z = randfrom(11.5, 12.5);
+	int id = stl_int_map_get_id();
+	gItemHandler.mItems.insert(make_pair(id, make_unique<Item>(finalPos, Item::ItemType::LIFE, 1, id)));
 }
 
 void setItemsAutocollect()

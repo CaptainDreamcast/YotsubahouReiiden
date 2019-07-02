@@ -1,0 +1,34 @@
+[Speaker Aerolite]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker moot]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker cygnus]
+
+[DialogPre]
+start = normal,gone
+Aerolite: What's next? Some general poster?
+intro = 1
+moot[normal]: Ehehe!
+Aerolite: *shaking*
+cygnus: Bro?
+Aerolite: N- no it's ok. H-he's gone. He can't h- hurt me anymore.
+moot: Strayaaaaaa!
+Aerolite: This is just Australian moot, the hacker that got into 4chan's admin account to bully a french trip.
+Aerolite: ... You know what, this will be great image training! 
+Aerolite: PLUS, can you imagine how proud the big bosses will be if I bring home the exploded leftovers of a site-wide villain?!
+cygnus: ...
+moot: Ay said STRAAAAAAAAYAAAAAAAA!
+
+[DialogPost]
+start = normal,gone
+cygnus: ... Bro!
+Aerolite: I'm alright, don't worry!
+Aerolite: One of the bullets singed me a bit, but that's part of the jo- AHH, MY HAIR IS ON FIRE!
+

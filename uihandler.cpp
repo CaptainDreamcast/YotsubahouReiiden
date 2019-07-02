@@ -3,6 +3,7 @@
 #include <prism/blitz.h>
 
 #include "player.h"
+#include "dialoghandler.h"
 
 #define UI_BASE_Z 85
 
@@ -21,6 +22,13 @@ static struct {
 
 	uint64_t mHighScore;
 } gUIHandler;
+
+static string getPointText()
+{
+	stringstream ss;
+	ss << getCollectedItemAmount() << "/" << getNextItemLifeUpAmount();
+	return ss.str();
+}
 
 static void loadUIHandler(void* tData) {
 	(void)tData;
@@ -43,12 +51,9 @@ static void loadUIHandler(void* tData) {
 	gUIHandler.mPowerTextID = addMugenTextMugenStyle("1.00/4.00", makePosition(310, 98, UI_BASE_Z + 2), makeVector3DI(2, 0, -1));
 	setMugenTextScale(gUIHandler.mPowerTextID, 0.65);
 	setMugenTextColorRGB(gUIHandler.mPowerTextID, 1, 160 / 255.0, 17 / 255.0);
-	gUIHandler.mPointTextID = addMugenTextMugenStyle("10,000", makePosition(310, 109, UI_BASE_Z + 2), makeVector3DI(2, 0, -1));
+	gUIHandler.mPointTextID = addMugenTextMugenStyle("0/50", makePosition(310, 109, UI_BASE_Z + 2), makeVector3DI(2, 0, -1));
 	setMugenTextScale(gUIHandler.mPointTextID, 0.65);
 	setMugenTextColorRGB(gUIHandler.mPointTextID, 75/ 255.0, 214 / 255.0, 1.0);
-
-	gUIHandler.mHighScore = 232124241;
-
 }
 
 static void updateLives() {
@@ -95,6 +100,7 @@ string scoreToString(uint64_t tScore) {
 }
 
 static void updateScore() {
+	if (isDialogActive()) return;
 	addPlayerScore(1234);
 	changeMugenText(gUIHandler.mScoreTextID, scoreToString(getPlayerScore()).data());
 }
@@ -108,12 +114,25 @@ static void updatePower() {
 	changeMugenText(gUIHandler.mPowerTextID, ss.str().data());
 }
 
+static void updateItemText() {
+	changeMugenText(gUIHandler.mPointTextID, getPointText().data());
+}
+
+static void updateHighScore()
+{
+	const auto score = getPlayerScore();
+	gUIHandler.mHighScore = std::max(score, gUIHandler.mHighScore);
+	changeMugenText(gUIHandler.mHighScoreTextID, scoreToString(gUIHandler.mHighScore).data());
+}
+
 static void updateUIHandler(void* tData) {
 	(void)tData;
 	updateLives();
 	updateBombs();
 	updateScore();
 	updatePower();
+	updateItemText();
+	updateHighScore();
 }
 
 ActorBlueprint getUIHandler()

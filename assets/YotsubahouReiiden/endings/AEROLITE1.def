@@ -1,0 +1,108 @@
+[Header]
+Sprites = levels/INTRO.sff
+
+[STORYSTART]
+
+[Image 1]
+Group = 1
+Item = 0
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "The site broke and hiro was detained. Somewhat."
+
+[Text 1]
+Speaker = ""
+Text = "He can break out at any time, but it would be kind of rude and awkward. "
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "Tu ne understand, we need the money!""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "Do you pense je added mid-thread ads just for fun?""
+
+[Text 1]
+Speaker = ""
+Text = "Aerolite: "Hmmm, I get the issue.""
+
+[Text 1]
+Speaker = ""
+Text = "Aerolite: "But have no fear, Aerolite is here!""
+
+[Text 1]
+Speaker = ""
+Text = "cygnus: "Bro!""
+
+[Text 1]
+Speaker = ""
+Text = "Aerolite: "And no christmas without cygnus.""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "Que?""
+
+[Text 1]
+Speaker = ""
+Text = "Aerolite: "I know how to get money! We milk the dumbest people on the site!""
+
+[Image 1]
+Group = 1
+Item = 1
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "Aerolite: "Phoneposters!""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "Aerolite, c'est geniale! We faisons a second site for phoneposters where they pay for posting!""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "They will acheter it! They will actually pay for that!""
+
+[Text 1]
+Speaker = ""
+Text = "Aerolite: "Pff, I know I'm a genius, I don't need your praise.""
+
+[Text 1]
+Speaker = ""
+Text = "Aerolite: "...""
+
+[Text 1]
+Speaker = ""
+Text = "Aerolite: "B- but could you say it again?""
+
+[Image 1]
+Group = 1
+Item = 2
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "The phone site is in the works right now, but as always, hiro seems to burn with a fiery passion for his pet project."
+
+[Text 1]
+Speaker = ""
+Text = "Aerolite went back to being a moderator, with renewed confidence in his abilities."
+
+[Text 1]
+Speaker = ""
+Text = "However, this new confidence would soon be tested- in the extra stage."
+
+[Text 1]
+Speaker = ""
+Text = "Good Ending #3 ~ I wouldn't trust phoneposters to carry the site, personally."
+
+[Text 1]
+Speaker = ""
+Text = "You beat the game without continues! Congratulations! All that's left is the encounter with an old friend in the extra stage!"
+
+[Title]

@@ -1,0 +1,33 @@
+[Speaker yournamehere]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker Shii]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker fission]
+
+[DialogPre]
+start = normal,gone
+intro = 1
+Shii[normal]: OwO what's this?
+yournamehere: I was okay with the crazy guy, the narcissist and the hacker, but I'm not sure I can take a weeb on top of that.
+Shii: *teleports behind you* nothin personnel.
+fission: This is Shii aka menchii. He is most notable for getting the site deleted back in the day. 
+yournamehere: Oh I remember him, he used to be a moderator with us until a few years ago.
+Shii: Hey! You still owe me money, yournamehere!
+fission: Yes, after that, he was a mod for a while.
+Shii: Why aren't you paying any attention to me, I brought my super cool Samurai Maid X cosplay and all you guys do is talk to each other.
+yournamehere: I think the level boss entry means he's a bad guy right now.
+Shii: I'm going to take off my limiter and this site will be finished in five minutes after I use 'that'!
+yournamehere: Total bad guy.
+fission: Yup.
+
+[DialogPost]
+start = normal,gone
+yournamehere: Off you go to anime heaven, senpai.
+fission: Alternatively known as /sp/ hell.

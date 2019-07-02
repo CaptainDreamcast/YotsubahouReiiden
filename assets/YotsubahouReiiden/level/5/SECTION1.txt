@@ -1,0 +1,2042 @@
+
+[Section two lines]
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy2"
+speed = 0.2
+radius = 5
+p1.pos = -0.1,0.1
+p2.pos = 0.5,0.25
+p3.pos = 1.2,0.2
+s1.time = 10
+s1.name = "enemy_slim_angle_aimed_wide"
+s1.frequency = 1,15
+s2.time = 9999
+score = 5
+life = 30

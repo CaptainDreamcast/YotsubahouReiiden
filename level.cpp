@@ -11,6 +11,8 @@
 #include "player.h"
 #include "gamescreen.h"
 #include "dialoghandler.h"
+#include "menuscreen.h"
+#include "storyscreen.h"
 
 #define LEVEL_DONE_Z 85
 
@@ -28,7 +30,7 @@ static struct {
 
 	int mCurrentSection;
 	int mCurrentDeltaTime;
-	int mCurrentLevel = 0;
+	int mCurrentLevel = 4;
 
 	int mIsLevelEnding;
 	int mLevelEndAnimationID;
@@ -227,9 +229,28 @@ static void gotoNextLevel(void* tCaller) {
 	setNewScreen(getGameScreen());
 }
 
-static void updateLevelEnding() {
-	if (!gLevelData.mIsLevelEnding) return;
+static void gotoMenuScreen(void* tCaller) {
+	(void)tCaller;
+	setNewScreen(getMenuScreen());
+}
 
+static void gotoEnding(void* tCaller) {
+	(void)tCaller;
+	stringstream ss;
+	ss << getPlayerName();
+	if(getContinueAmount() == 4)
+	{
+		ss << 1;
+	} else
+	{
+		ss << 0;
+	}
+	setCurrentStoryDefinitionFile(ss.str().data());
+	setNewScreen(getStoryScreen());
+}
+
+static void updateLevelEndingNormal()
+{
 	if (gLevelData.mLevelEndNow <= 30) {
 		setMugenAnimationTransparency(gLevelData.mLevelEndAnimationID, gLevelData.mLevelEndNow / 30.0);
 	}
@@ -244,6 +265,56 @@ static void updateLevelEnding() {
 
 	if (gLevelData.mLevelEndNow == 500) {
 		addFadeOut(20, gotoNextLevel, NULL);
+	}
+}
+
+static void updateLevelEndingFinal()
+{
+	if (gLevelData.mLevelEndNow <= 30) {
+		setMugenAnimationTransparency(gLevelData.mLevelEndAnimationID, gLevelData.mLevelEndNow / 30.0);
+	}
+	if (gLevelData.mLevelEndNow == 30) {
+		int scoreBonus = (gLevelData.mCurrentLevel + 1) * 1000000;
+		stringstream ss;
+		ss << "LEVEL COMPLETE BONUS: " << scoreBonus;
+		int id = addMugenTextMugenStyle(ss.str().data(), getScreenPositionFromGamePosition(0.5, 0.3, LEVEL_DONE_Z), makeVector3DI(4, 0, 0));
+		setMugenTextScale(id, 0.6);
+		addPlayerScore(scoreBonus);
+
+		scoreBonus = getPlayerLife() * 10000000;
+		ss = stringstream();
+		ss << "LIFE BONUS: " << scoreBonus;
+		id = addMugenTextMugenStyle(ss.str().data(), getScreenPositionFromGamePosition(0.5, 0.35, LEVEL_DONE_Z), makeVector3DI(4, 0, 0));
+		setMugenTextScale(id, 0.6);
+		addPlayerScore(scoreBonus);
+
+		scoreBonus = getPlayerBombs() * 1000000;
+		ss = stringstream();
+		ss << "BOMB BONUS: " << scoreBonus;
+		id = addMugenTextMugenStyle(ss.str().data(), getScreenPositionFromGamePosition(0.5, 0.4, LEVEL_DONE_Z), makeVector3DI(4, 0, 0));
+		setMugenTextScale(id, 0.6);
+		addPlayerScore(scoreBonus);
+	}
+
+	if (gLevelData.mLevelEndNow == 500) {
+		if (gLevelData.mCurrentLevel == 5) {
+			addFadeOut(20, gotoMenuScreen, NULL);
+		} else
+		{
+			addFadeOut(20, gotoEnding, NULL);
+		}
+	}
+}
+
+static void updateLevelEnding() {
+	if (!gLevelData.mIsLevelEnding) return;
+
+	if(gLevelData.mCurrentLevel < 4)
+	{
+		updateLevelEndingNormal();
+	} else
+	{
+		updateLevelEndingFinal();
 	}
 
 	gLevelData.mLevelEndNow++;
@@ -270,6 +341,11 @@ MugenAnimations* getLevelAnimations()
 	return &gLevelData.mAnimations;
 }
 
+int getCurrentLevel()
+{
+	return gLevelData.mCurrentLevel;
+}
+
 Position getScreenPositionFromGamePosition(Position tPosition)
 {
 	return gGameVars.gameScreenOffset + makePosition(gGameVars.gameScreen) * tPosition;
@@ -278,6 +354,16 @@ Position getScreenPositionFromGamePosition(Position tPosition)
 Position getScreenPositionFromGamePosition(double x, double y, double z)
 {
 	return getScreenPositionFromGamePosition(makePosition(x, y, z));
+}
+
+double getScreenPositionFromGamePositionX(double x)
+{
+	return gGameVars.gameScreenOffset.x + gGameVars.gameScreen.x * x;
+}
+
+double getScreenPositionFromGamePositionY(double y)
+{
+	return gGameVars.gameScreenOffset.y + gGameVars.gameScreen.y * y;
 }
 
 int isInGameScreen(const Position& p)
@@ -296,6 +382,25 @@ void endLevel()
 int isLevelEnding()
 {
 	return gLevelData.mIsLevelEnding;
+}
+
+int isInExtra()
+{
+	return gLevelData.mCurrentLevel == 5;
+}
+
+void startExtra()
+{
+	gLevelData.mCurrentLevel = 5;
+	resetPlayer();
+	setNewScreen(getGameScreen());
+}
+
+void startGame()
+{
+	gLevelData.mCurrentLevel = 0;
+	resetPlayer();
+	setNewScreen(getGameScreen());
 }
 
 LevelEnemy::LevelEnemy(MugenDefScriptGroup* tGroup) {

@@ -1,0 +1,284 @@
+[AnimationDef 2]
+loop = 0
+
+[Interpolation]
+time = 0
+posy = 0
+
+[Interpolation]
+time = 120
+posy = 71
+
+
+[AnimationDef 3]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = 0
+
+[Interpolation]
+time = 120
+posx = 190
+
+[AnimationDef 12]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = 160
+
+[Interpolation]
+time = 30
+posx = -200
+
+[AnimationDef 13]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = 190
+
+[Interpolation]
+time = 30
+posx = -170
+
+[AnimationDef 22]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = -200
+
+[Interpolation]
+time = 30
+posx = 160
+
+[AnimationDef 23]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = -170
+
+[Interpolation]
+time = 30
+posx = 190
+
+[AnimationDef 50]
+loop = 1
+
+[Interpolation]
+time = 0
+scale = 1
+
+[Interpolation]
+time = 10
+scale = 1.1
+
+[Interpolation]
+time = 20
+scale = 1
+
+[Interpolation]
+time = 30
+scale = 0.9
+
+[Interpolation]
+time = 40
+scale = 1
+
+[AnimationDef 100]
+loop = 0
+
+[Interpolation]
+time = 140
+posx = 320
+
+[Interpolation]
+time = 160
+posx = 190
+
+[AnimationDef 101]
+loop = 0
+
+[Interpolation]
+time = 140
+posx = 320
+
+[Interpolation]
+time = 160
+posx = 200
+
+[AnimationDef 102]
+loop = 0
+
+[Interpolation]
+time = 140
+posx = 320
+
+[Interpolation]
+time = 160
+posx = 210
+
+[AnimationDef 200]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = 190
+
+[Interpolation]
+time = 30
+posx = -170
+
+[AnimationDef 201]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = 200
+
+[Interpolation]
+time = 30
+posx = -180
+
+[AnimationDef 202]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = 210
+
+[Interpolation]
+time = 30
+posx = -190
+
+[AnimationDef 300]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = -170
+
+[Interpolation]
+time = 30
+posx = 190
+
+[AnimationDef 301]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = -180
+
+[Interpolation]
+time = 30
+posx = 200
+
+[AnimationDef 302]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = -190
+
+[Interpolation]
+time = 30
+posx = 210
+
+[AnimationDef 500]
+loop = 1
+
+[Interpolation]
+time = 0
+posy = 30
+
+[Interpolation]
+time = 30
+posy = 40
+
+[Interpolation]
+time = 60
+posy = 30
+
+[AnimationDef 501]
+loop = 1
+
+[Interpolation]
+time = 0
+posy = 210
+
+[Interpolation]
+time = 30
+posy = 200
+
+[Interpolation]
+time = 60
+posy = 210
+
+[AnimationDef 600]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = 408
+
+[Interpolation]
+time = 30
+posx = 48
+
+[AnimationDef 610]
+loop = 0
+
+[Interpolation]
+time = 0
+posx = 48
+
+[Interpolation]
+time = 30
+posx = 408
+
+[AnimationDef 700]
+loop = 0
+
+[Interpolation]
+time = 0
+posy = 186
+
+[Interpolation]
+time = 30
+posy = 546
+
+[AnimationDef 701]
+loop = 0
+
+[Interpolation]
+time = 0
+posy = 546
+
+[Interpolation]
+time = 30
+posy = 186
+
+[AnimationDef 702]
+loop = 0
+
+[Interpolation]
+time = 0
+posy = 186
+
+[Interpolation]
+time = 30
+posy = -174
+
+[AnimationDef 703]
+loop = 0
+
+[Interpolation]
+time = 0
+posy = -174
+
+[Interpolation]
+time = 30
+posy = 186

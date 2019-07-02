@@ -1,0 +1,16 @@
+
+[Begin Action 1]
+1,0, 0,0, 7
+1,1, 0,0, 7
+
+[Begin Action 10]
+10,0, 0,0, 10
+
+[Begin Action 11]
+10,1, 0,0, 10
+
+[Begin Action 1000]
+1000,0, 0,0, 7
+
+[Begin Action 5001]
+5001,0, 0,0, 10

@@ -92,7 +92,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;winmm.lib;version.lib;imm32.lib;libjpeg.lib;libpng16.lib;zlib.lib;libwebp.lib;OpenGL32.lib;glew32s.lib;freetype.lib;libzstd_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
@@ -108,6 +108,7 @@
     <ClCompile Include="..\dialoghandler.cpp" />
     <ClCompile Include="..\enemyhandler.cpp" />
     <ClCompile Include="..\gamescreen.cpp" />
+    <ClCompile Include="..\inmenu.cpp" />
     <ClCompile Include="..\itemhandler.cpp" />
     <ClCompile Include="..\level.cpp" />
     <ClCompile Include="..\levelintro.cpp" />
@@ -116,7 +117,9 @@
     <ClCompile Include="..\menuscreen.cpp" />
     <ClCompile Include="..\player.cpp" />
     <ClCompile Include="..\shothandler.cpp" />
+    <ClCompile Include="..\storyscreen.cpp" />
     <ClCompile Include="..\uihandler.cpp" />
+    <ClCompile Include="..\warningscreen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\bghandler.h" />
@@ -126,13 +129,16 @@
     <ClInclude Include="..\dialoghandler.h" />
     <ClInclude Include="..\enemyhandler.h" />
     <ClInclude Include="..\gamescreen.h" />
+    <ClInclude Include="..\inmenu.h" />
     <ClInclude Include="..\itemhandler.h" />
     <ClInclude Include="..\level.h" />
     <ClInclude Include="..\levelintro.h" />
     <ClInclude Include="..\menuscreen.h" />
     <ClInclude Include="..\player.h" />
     <ClInclude Include="..\shothandler.h" />
+    <ClInclude Include="..\storyscreen.h" />
     <ClInclude Include="..\uihandler.h" />
+    <ClInclude Include="..\warningscreen.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

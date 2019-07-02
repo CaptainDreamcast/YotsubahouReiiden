@@ -39,8 +39,10 @@ struct LevelIntro {
 
 		mTextID = addMugenTextMugenStyle(tLevelText.data(), getScreenPositionFromGamePosition(0.2, 0.15, LEVEL_INTRO_Z), makeVector3DI(4, 0, 1));
 		setMugenTextBuildup(mTextID, 1);
+		setMugenTextTextBoxWidth(mTextID, 140);
 		setMugenTextScale(mTextID, 0.8);
 
+		mNow = 0;
 		mIsActive = 1;
 	}
 };

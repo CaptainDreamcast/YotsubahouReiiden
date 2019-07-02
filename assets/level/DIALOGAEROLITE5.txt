@@ -1,0 +1,41 @@
+[Speaker Aerolite]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker Chris]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[DialogPre]
+start = normal,gone
+Aerolite: Bwahahaha! The great Aerolite is invincible anywhere!
+Aerolite: ... Except the real world, but we're getting there!
+intro = 1
+Chris[normal]: A-
+Aerolite: *pukes*
+Chris: I come all the way out here and this is who I get?
+Chris: The most disappointing of them all.
+Aerolite: Oh, I just ate some moldy food that made me puke, I'm no longer afraid of you.
+Chris: So you're afraid of hiro now?
+Aerolite: No, we've been good friends ever since I put out the fire that nearly burned him to a crisp.
+Aerolite: You see, mootykins, I have finally come to realize how awesome I am.
+Chris: (m- mootykins?)
+Aerolite: And I'm glad you're here, because now you can see it first-hand too!
+Aerolite: Engarde!
+Chris: (m- mootykins?)
+
+[DialogPost]
+start = normal,normal
+Aerolite: What do you think? My lasers won't even lose to ALTERNATIVE's! Bwahaha!
+Chris: I always knew you had the potential.
+Aerolite: Y- you mean that?
+Chris: Yes, that was why I always yelled at you for the most trivial things, so you could become this.
+Aerolite: Hahaha, aww shucks!
+Chris: I'm not saying this because I want to sneak away while you're busy.
+Chris: By the way, I'm going to go get cigarettes real quick, brb!
+Aerolite: ...
+Aerolite: I guess a resolved emotional trauma is a resolved emotional trauma.
+Aerolite: Aerolite 1, World 0!

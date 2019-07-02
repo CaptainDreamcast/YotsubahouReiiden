@@ -1,0 +1,10 @@
+[Section 1]
+
+[Wait]
+time = 30
+duration = 30
+
+[Enemy 1]
+time = 10
+animation = 10
+

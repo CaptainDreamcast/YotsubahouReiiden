@@ -1,1 +1,7 @@
-OBJS = main.o 
+OBJS = main.o \
+assets_web.o bghandler.o boss.o collision.o \
+debug.o dialoghandler.o enemyhandler.o \
+gamescreen.o inmenu.o itemhandler.o level.o \
+levelintro.o menuscreen.o player.o \
+shothandler.o storyscreen.o uihandler.o \
+warningscreen.o

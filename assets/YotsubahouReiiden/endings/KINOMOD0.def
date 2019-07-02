@@ -1,0 +1,43 @@
+[Header]
+Sprites = levels/INTRO.sff
+
+[STORYSTART]
+
+[Image 1]
+Group = 1
+Item = 0
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "kinomod never figured out what exactly hiro was up to."
+
+[Text 1]
+Speaker = ""
+Text = "kinomod: "Maybe he wanted to have a birthday party and wrote letters to the wrong people?!""
+
+
+[Text 1]
+Speaker = ""
+Text = "Abib: "I don't think that was it.""
+
+[Image 1]
+Group = 1
+Item = 1
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "With the site still in uproar and the mystery on the tip of his tongue, kami set out once again."
+
+[Text 1]
+Speaker = ""
+Text = "Bad Ending #2 ~ I don't know when hiro's birthday is either."
+
+[Text 1]
+Speaker = ""
+Text = "Try beating the game without continues next time!"
+
+[Title]

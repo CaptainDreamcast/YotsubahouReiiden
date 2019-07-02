@@ -1,0 +1,34 @@
+[Speaker yournamehere]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker moot]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker fission]
+
+[DialogPre]
+start = normal,gone
+yournamehere: /biz/ is looking a bit weird...
+fission: You'd think so, us being on /int/ and all.
+intro=1
+moot[normal]: Piss off, we're full.
+fission: moot?
+yournamehere: who?
+fission: No... if you look closely, his nose is slightly different.
+yournamehere: Are you legally blind?
+fission: Wait! This is Australian moot! The /int/ trip that guessed moot's password and wrecked havoc for a day!
+moot: Yankee cunts.
+yournamehere: LANGUAGE!
+fission: You're one to talk with your stupid apron, you're going to bump this game to PG-13!
+yournamehere: When I'm done with him, it will be X-rated!
+
+[DialogPost]
+start = normal,gone
+yournamehere: I thought we changed the admin password?
+fission: Seems changing it from password to password123 wasn't enough. My bad.
+fission: They'll never get password1234 though!

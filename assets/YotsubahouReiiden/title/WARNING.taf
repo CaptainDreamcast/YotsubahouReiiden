@@ -1,0 +1,68 @@
+[AnimationDef 1]
+loop = 0
+
+[Interpolation]
+time = 0
+mugentransparency = 0
+
+[Interpolation]
+time = 60
+mugentransparency = 0
+
+[Interpolation]
+time = 120
+mugentransparency = 1
+
+[Interpolation]
+time = 700
+mugentransparency = 1
+
+[Interpolation]
+time = 760
+mugentransparency = 0
+
+[AnimationDef 2]
+loop = 0
+
+[Interpolation]
+time = 0
+mugentransparency = 0
+
+[Interpolation]
+time = 180
+mugentransparency = 0
+
+[Interpolation]
+time = 240
+mugentransparency = 1
+
+[Interpolation]
+time = 700
+mugentransparency = 1
+
+[Interpolation]
+time = 760
+mugentransparency = 0
+
+[AnimationDef 3]
+loop = 0
+
+[Interpolation]
+time = 0
+mugentransparency = 0
+
+[Interpolation]
+time = 520
+mugentransparency = 0
+
+[Interpolation]
+time = 580
+mugentransparency = 1
+
+[Interpolation]
+time = 700
+mugentransparency = 1
+
+[Interpolation]
+time = 760
+mugentransparency = 0

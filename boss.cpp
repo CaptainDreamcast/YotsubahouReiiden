@@ -10,12 +10,14 @@
 #include "itemhandler.h"
 #include "enemyhandler.h"
 #include "debug.h"
+#include "player.h"
 
 #define BOSS_Z 20
 
 static void bossHitCB(void* tCaller, void* tCollisionData);
 static void customBossCBCaller(void* tCaller);
 static void removeBoss();
+static void anonHitCB(void* tCaller, void* tCollisionData);
 
 struct Boss {
 	int mEntityID;
@@ -33,6 +35,11 @@ struct Boss {
 	int mStageAmount = 10;
 	int mSpellCard = 0;
 	int mTimeInCard = -1;
+	int mTimeLeftInCard = 60;
+	int mIsTimerActive = 0;
+	int mSurvivalTimerTextID;
+	int mSurvivalTimerID;
+	int mIsInvincible = 0;
 
 	Boss() {
 		mEntityID = addBlitzEntity(makePosition(0,0,0));
@@ -44,6 +51,11 @@ struct Boss {
 		setMugenTextScale(mNameTextID, 0.6);
 		setMugenTextColorRGB(mNameTextID, 0, 0, 0);
 		mNumberTextID = addMugenTextMugenStyle("0", makePosition(26, 30, BOSS_Z + 2), makeVector3DI(2, 0, 1));
+		mSurvivalTimerTextID = addMugenTextMugenStyle("Time left: ", makePosition(193, 40, BOSS_Z + 2), makeVector3DI(4, 0, -1));
+		setMugenTextScale(mSurvivalTimerTextID, 0.5);
+		mSurvivalTimerID = addMugenTextMugenStyle("23", makePosition(193, 40, BOSS_Z + 2), makeVector3DI(2, 0, 1));
+		setMugenTextScale(mSurvivalTimerID, 0.5);
+		disableSurvivalTimer();
 		Position pos = gGameVars.gameScreenOffset + makePosition(27, 15, BOSS_Z + 1);
 		mHealthBarBGID = addMugenAnimation(getMugenAnimation(getUIAnimations(), 20), getUISprites(), pos);
 		mHealthBarID = addMugenAnimation(getMugenAnimation(getUIAnimations(), 21), getUISprites(), pos + makePosition(0, 0, 1));
@@ -57,6 +69,8 @@ struct Boss {
 		removeMugenAnimation(mHealthBarBGID);
 		removeMugenText(mNumberTextID);
 		removeMugenText(mNameTextID);
+		removeMugenText(mSurvivalTimerTextID);
+		removeMugenText(mSurvivalTimerID);
 	}
 
 	virtual Position getPosition() {
@@ -82,26 +96,75 @@ struct Boss {
 		changeMugenText(mNumberTextID, ss.str().data());
 	}
 
+	void updateSurvivalTimer()
+	{
+		if (!mIsTimerActive) return;
+
+		if (mTimeLeftInCard < 0)
+		{
+			mIsInvincible = 0;
+			addBossDamage(50);
+		}
+
+		mTimeLeftInCard--;
+		int seconds = mTimeLeftInCard / 60;
+		seconds = std::max(0, seconds);
+		stringstream ss;
+		if (seconds < 10) ss << 0;
+		ss << seconds;
+		changeMugenText(mSurvivalTimerID, ss.str().data());
+	}
+
+	void enableSurvivalTimer(int tSeconds)
+	{
+		mTimeLeftInCard = tSeconds * 60 + 60;
+		setMugenTextVisibility(mSurvivalTimerTextID, 1);
+		setMugenTextVisibility(mSurvivalTimerID, 1);
+		updateSurvivalTimer();
+
+		mIsTimerActive = 1;
+	}
+
+	void disableSurvivalTimer()
+	{
+		setMugenTextVisibility(mSurvivalTimerTextID, 0);
+		setMugenTextVisibility(mSurvivalTimerID, 0);
+		updateSurvivalTimer();
+
+		mIsTimerActive = 0;
+	}
+
 	void increaseStage(int tLife, int tPowerItems = 0, int tScoreItems = 0) {
-		addPowerItems(getBlitzEntityPosition(mEntityID), tPowerItems);
-		addScoreItems(getBlitzEntityPosition(mEntityID), tScoreItems);
-		increaseStage();
+		
+		increaseStageAfter(tPowerItems, tScoreItems);
 		setLife(tLife);
 		updateStageDisplay();
 	}	
-	
-	void increaseStage() {
+
+	void increaseStageAfter(int tPowerItems = 0, int tScoreItems = 0) {
+		addPowerItems(getBlitzEntityPosition(mEntityID), tPowerItems);
+		addScoreItems(getBlitzEntityPosition(mEntityID), tScoreItems);
 		mStage++;
 		mSpellCard = 0;
 		mTimeInCard = -1;
+		mIsInvincible = 0;
+		int stagesLeft = mStageAmount - mStage - 1;
+		if (mStage >= 0 && stagesLeft >= 0) {
+			enableSurvivalTimer(60);
+		} else
+		{
+			disableSurvivalTimer();
+		}
 		removeEnemyBullets();
 	}
 
-	void increaseSpellcard(double tHealthFactor = 1) {
+	void increaseSpellcard(double tHealthFactor = 1, int tTimeInCard = 60) {
 		mSpellCard++;
 		mTimeInCard = -1;
+		mIsInvincible = 0;
 		mLife = int(mLife*tHealthFactor);
 		mLifeMax = int(mLifeMax*tHealthFactor);
+		enableSurvivalTimer(tTimeInCard);
 		removeEnemyBullets();
 	}
 
@@ -124,7 +187,7 @@ struct Boss {
 	}
 
 	virtual void update() = 0;
-	virtual void hitCB() = 0;
+	virtual void hitCB(int tDamage) = 0;
 	virtual void customCB() {};
 
 	static int updateToPositionEntity(int tEntityID, Position tPos, double tSpeed) {
@@ -164,12 +227,18 @@ struct Boss {
 		}
 	}
 
-	void addDamage(int tDamage) {
-		mLife = std::max(0, mLife - 1);
+	void startSurvival(int tSeconds) {
+		mIsInvincible = 1;
+		mTimeLeftInCard = tSeconds * 60 + 59;
 	}
 
-	void hitCBStandard() {
-		addDamage(1);
+	void addDamage(int tDamage) {
+		if (mIsInvincible) return;
+		mLife = std::max(0, mLife - tDamage);
+	}
+
+	void hitCBStandard(int tDamage) {
+		addDamage(tDamage);
 	}
 };
 
@@ -196,6 +265,7 @@ static void updateBossHandler(void* tData) {
 	gBossData.mBoss->mCurrentFrame++;
 	gBossData.mBoss->updateHealthBar();
 	gBossData.mBoss->updateTime();
+	gBossData.mBoss->updateSurvivalTimer();
 	gBossData.mBoss->update();
 }
 
@@ -208,7 +278,8 @@ static void bossHitCB(void* tCaller, void* tCollisionData) {
 	(void)tCaller;
 	(void)tCollisionData;
 	if (!gBossData.mIsActive) return;
-	gBossData.mBoss->hitCB();
+	if (tCollisionData == nullptr) return;
+	gBossData.mBoss->hitCB(getShotDamage(tCollisionData));
 }
 
 static void removeBoss() {
@@ -251,8 +322,8 @@ struct DummyBoss : Boss {
 		if (mLife == 0) removeBoss();
 	}
 
-	virtual void hitCB() override {
-		hitCBStandard();
+	virtual void hitCB(int tDamage) override {
+		hitCBStandard(tDamage);
 	}
 
 };
@@ -268,8 +339,6 @@ struct BarneyBoss : Boss {
 	}
 
 	~BarneyBoss() {
-		addPowerItems(getBlitzEntityPosition(mEntityID), 38);
-		addScoreItems(getBlitzEntityPosition(mEntityID), 17);
 		addBombItem(getBlitzEntityPosition(mEntityID));
 	}
 
@@ -294,7 +363,7 @@ struct BarneyBoss : Boss {
 		Position p = getBlitzEntityPosition(mEntityID);
 		//p += vecRotateZ(makePosition(10, 0, 0), mTimeInCard);
 		if (mSpellcard1Stage == 0) {
-			if (updateToPosition(getScreenPositionFromGamePosition(0.3, 0.2, 20), 3)) {
+			if (updateToPosition(getScreenPositionFromGamePosition(0.3, 0.2, BOSS_Z), 3)) {
 				mSpellcard1Stage = 1;
 				mSpellTime = 0;
 			}
@@ -304,7 +373,7 @@ struct BarneyBoss : Boss {
 				mSpellcard1Stage = 2;
 			}
 		} else if (mSpellcard1Stage == 2) {
-			if (updateToPosition(getScreenPositionFromGamePosition(0.7, 0.2, 20), 3)) {
+			if (updateToPosition(getScreenPositionFromGamePosition(0.7, 0.2, BOSS_Z), 3)) {
 				mSpellcard1Stage = 3;
 				mSpellTime = 0;
 			}
@@ -335,8 +404,8 @@ struct BarneyBoss : Boss {
 
 	virtual void update() override {
 		if (mStage == -1) {
-			if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, 20), 3)) {
-				increaseStage(600);
+			if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z), 3)) {
+				increaseStage(1200);
 				reshowHealthBar();
 			}
 		}
@@ -352,7 +421,7 @@ struct BarneyBoss : Boss {
 			else {
 				updateSpellcard1();
 
-				if (mLife == 0) increaseStage();
+				if (mLife == 0) increaseStageAfter(38, 17);
 			}
 		}
 		else {
@@ -360,9 +429,9 @@ struct BarneyBoss : Boss {
 		}
 	}
 
-	virtual void hitCB() override {
+	virtual void hitCB(int tDamage) override {
 		if (mStage < 0) return;
-		hitCBStandard();
+		hitCBStandard(tDamage);
 	}
 };
 
@@ -375,18 +444,18 @@ struct AckBoss : Boss {
 		setBossName("ACK");
 		mStageAmount = 2;
 
-		setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
-		mStage = 1;
+		//setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
+		//mStage = -1;
 	}
 
 	~AckBoss() {
-		startPostDialog();
+		
 	}
 
 	virtual void customCB() override {
 		if (mStage == -1) {
 			reshowHealthBar();
-			increaseStage(600);
+			increaseStage(1200);
 		}
 	}
 
@@ -466,7 +535,7 @@ struct AckBoss : Boss {
 				updateSpell1();
 
 				if (!mLife) {
-					increaseStage(800, 25, 10);
+					increaseStage(1600, 25, 10);
 				}
 			}
 		}
@@ -483,18 +552,19 @@ struct AckBoss : Boss {
 
 				if (!mLife) {
 					removeBlitzEntity(mEntityID2);
-					increaseStage();
+					increaseStageAfter();
 				}
 			}
 		}
 		else {
 			removeBoss();
+			startPostDialog();
 		}
 	}
 
-	virtual void hitCB() override {
+	virtual void hitCB(int tDamage) override {
 		if (mStage < 0) return;
-		hitCBStandard();
+		hitCBStandard(tDamage);
 	}
 };
 
@@ -502,8 +572,15 @@ struct AcceleratorMidBoss : Boss {
 
 
 	AcceleratorMidBoss() {
-		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1001, 13); // TODO: proper animation
+		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1000, 13); // TODO: proper animation
 		hideHealthBar();
+		setBossName("Accelerator");
+		mStageAmount = 1;
+	}
+
+	~AcceleratorMidBoss()
+	{
+		addLifeItem(getBlitzEntityPosition(mEntityID));
 	}
 
 	void updateSpellcard0() {
@@ -514,8 +591,8 @@ struct AcceleratorMidBoss : Boss {
 
 	virtual void update() override {
 		if (mStage == -1) {
-			if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, 20), 3)) {
-				increaseStage(1000);
+			if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z), 3)) {
+				increaseStage(1200);
 				reshowHealthBar();
 			}
 		}
@@ -524,19 +601,19 @@ struct AcceleratorMidBoss : Boss {
 
 				updateSpellcard0();
 
-				if (mLife == 0) increaseStage();
+				if (mLife == 0) increaseStageAfter(40, 20);
 			}
 		}
 		else {
-			if (updateToPosition(getScreenPositionFromGamePosition(-0.5, -0.2, 20), 3)) {
+			if (updateToPosition(getScreenPositionFromGamePosition(-0.5, -0.2, BOSS_Z), 3)) {
 				removeBoss();
 			}
 		}
 	}
 
-	virtual void hitCB() override {
+	virtual void hitCB(int tDamage) override {
 		if (mStage < 0) return;
-		hitCBStandard();
+		hitCBStandard(tDamage);
 	}
 };
 
@@ -545,17 +622,19 @@ struct AcceleratorBoss : Boss {
 
 
 	AcceleratorBoss() {
-		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1001, 13); // TODO: proper animation
-		//hideHealthBar();
-		setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
-		mStage = 1;
-		mSpellCard = 0;
+		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1000, 13); // TODO: proper animation
+		hideHealthBar();
+		setBossName("Accelerator");
+		//setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
+		//mStage = 1;
+		//mSpellCard = 0;
+		mStageAmount = 3;
 	}
 
 	virtual void customCB() override {
 		if (mStage == -1) {
 			reshowHealthBar();
-			mStage = 0;
+			increaseStage(1200);
 		}
 		mTimeInCard = -1;
 	}
@@ -696,7 +775,7 @@ struct AcceleratorBoss : Boss {
 			else {
 				updateSpellCard1();
 				if (!mLife) {
-					increaseStage(1000);
+					increaseStage(1400, 20, 10);
 				}
 			}
 		}
@@ -713,7 +792,7 @@ struct AcceleratorBoss : Boss {
 			else {
 				updateSpellCard2();
 				if (!mLife) {
-					increaseStage(1000);
+					increaseStage(1400, 30, 10);
 				}
 			}
 		}
@@ -721,20 +800,19 @@ struct AcceleratorBoss : Boss {
 			updateSpellCard3();
 
 			if (!mLife) {
-				increaseStage(1);
+				increaseStageAfter();
 			}
 		}
 		else {
-			if (updateToPosition(getScreenPositionFromGamePosition(-0.5, -0.2, 20), 3)) {
-				clearStars();
-				removeBoss();
-			}
+			clearStars();
+			removeBoss();
+			startPostDialog();
 		}
 	}
 
-	virtual void hitCB() override {
+	virtual void hitCB(int tDamage) override {
 		if (mStage < 0) return;
-		hitCBStandard();
+		hitCBStandard(tDamage);
 	}
 };
 
@@ -742,11 +820,18 @@ struct WoaznBoss : Boss {
 
 
 	WoaznBoss() {
-		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1000, 13); // TODO: proper animation
+		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1001, 13); // TODO: proper animation
 		hideHealthBar();
-		setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
-		mStage = 0;
-		mSpellCard = 1;
+		setBossName("Woazn");
+		//setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
+		//mStage = 0;
+		//mSpellCard = 1;
+		mStageAmount = 1;
+	}
+
+	~WoaznBoss()
+	{
+		addBombItem(getBlitzEntityPosition(mEntityID));
 	}
 
 	void updateNonSpell1() {
@@ -763,8 +848,8 @@ struct WoaznBoss : Boss {
 
 	virtual void update() override {
 		if (mStage == -1) {
-			if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, 20), 3)) {
-				increaseStage(1000);
+			if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z), 3)) {
+				increaseStage(2000);
 				reshowHealthBar();
 			}
 		}
@@ -773,23 +858,21 @@ struct WoaznBoss : Boss {
 
 				updateNonSpell1();
 
-				if (mLife < mLifeMax / 3) increaseSpellcard(6);
+				if (mLife < mLifeMax / 3) increaseSpellcard(2);
 			}
 			else {
 				updateSpell1();
-				if (!mLife) increaseStage();
+				if (!mLife) increaseStageAfter(50, 20);
 			}
 		}
 		else {
-			if (updateToPosition(getScreenPositionFromGamePosition(-0.5, -0.2, 20), 3)) {
-				removeBoss();
-			}
+			removeBoss();
 		}
 	}
 
-	virtual void hitCB() override {
+	virtual void hitCB(int tDamage) override {
 		if (mStage < 0) return;
-		hitCBStandard();
+		hitCBStandard(tDamage);
 	}
 };
 
@@ -798,17 +881,20 @@ struct AusMootBoss : Boss {
 
 
 	AusMootBoss() {
-		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1001, 13); // TODO: proper animation
-		//hideHealthBar();
-		setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
-		mStage = 3;
-		mSpellCard = 0;
+		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1002, 13); // TODO: proper animation
+		hideHealthBar();
+		setBossName("Australian moot");
+		//setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
+		//mStage = 3;
+		//mSpellCard = 0;
+
+		mStageAmount = 4;
 	}
 
 	virtual void customCB() override {
 		if (mStage == -1) {
 			reshowHealthBar();
-			mStage = 0;
+			increaseStage(1400);
 		}
 		mTimeInCard = -1;
 	}
@@ -998,7 +1084,8 @@ struct AusMootBoss : Boss {
 			else {
 				updateSpellCard1();
 				if (!mLife) {
-					increaseStage(1000);
+					setBlitzCameraHandlerRotationZ(0);
+					increaseStage(1400, 30, 10);
 				}
 			}
 		}
@@ -1014,7 +1101,7 @@ struct AusMootBoss : Boss {
 			else {
 				updateSpellCard2();
 				if (!mLife) {
-					increaseStage(1000);
+					increaseStage(1400, 40, 10);
 				}
 			}
 		}
@@ -1024,13 +1111,22 @@ struct AusMootBoss : Boss {
 				updateNonSpellCard3();
 
 				if (mLife <= mLifeMax / 3) {
+					mCurrentFrame = -1;
 					increaseSpellcard(3);
 				}
 			}
 			else {
-				updateSpellCard3();
+				if (mTimeInCard == 0) {
+					startSurvival(15);
+				}
 				if (!mLife) {
-					increaseStage(1000);
+					if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z), 3)) {
+						increaseStage(1600, 50, 10);
+					}
+				}
+				else
+				{	
+					updateSpellCard3();
 				}
 			}
 		}
@@ -1038,19 +1134,19 @@ struct AusMootBoss : Boss {
 			updateSpellCard4();
 
 			if (!mLife) {
-				increaseStage(1000);
+				increaseStageAfter();
 			}
 		}
 		else {
-			if (updateToPosition(getScreenPositionFromGamePosition(-0.5, -0.2, 20), 3)) {
-				removeBoss();
-			}
+			startPostDialog();
+			removeBoss();
+
 		}
 	}
 
-	virtual void hitCB() override {
+	virtual void hitCB(int tDamage) override {
 		if (mStage < 0) return;
-		hitCBStandard();
+		hitCBStandard(tDamage);
 	}
 };
 
@@ -1059,17 +1155,20 @@ struct ShiiBoss : Boss {
 
 
 	ShiiBoss() {
-		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1001, 13); // TODO: proper animation
-		//hideHealthBar();
-		setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
-		mStage = 3;
-		mSpellCard = 0;
+		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1002, 13); // TODO: proper animation
+		hideHealthBar();
+		setBossName("Shii");
+		//setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
+		//mStage = 4;
+		//mSpellCard = 0;
+
+		mStageAmount = 5;
 	}
 
 	virtual void customCB() override {
 		if (mStage == -1) {
 			reshowHealthBar();
-			mStage = 0;
+			increaseStage(2000);
 		}
 		mTimeInCard = -1;
 	}
@@ -1082,6 +1181,9 @@ struct ShiiBoss : Boss {
 	}
 
 	void updateSpellCard1() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "shii_s1", getEnemyShotCollisionList());
+		}
 	}
 
 	void updateNonSpellCard2() {
@@ -1115,9 +1217,51 @@ struct ShiiBoss : Boss {
 	}
 
 	void updateSpellCard4() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "shii_s4", getEnemyShotCollisionList());
+		}
+	}
+
+	int mWorldEntity;
+	Position mTarget;
+	void loadWorld() {
+		mWorldEntity = addBlitzEntity(getScreenPositionFromGamePosition(0.5, 0.1, 0));
+		addBlitzMugenAnimationComponent(mWorldEntity, getLevelSprites(), getLevelAnimations(), 1002);
+		addBlitzCollisionComponent(mWorldEntity);
+		addBlitzCollisionCirc(mWorldEntity, getEnemyShotCollisionList(), makeCollisionCirc(makePosition(0, 0, 0), 30));
+	}
+
+	void unloadWorld() {
+		removeBlitzEntity(mWorldEntity);
+	}
+
+	void findWorldTarget() {
+		auto p = getBlitzEntityPosition(mWorldEntity);
+		auto playerPos = getBlitzEntityPosition(getPlayerEntity());
+		auto delta = playerPos - p;
+		double t[4] = { -1, -1, -1, -1 };
+		if(delta.x) t[0] = 0 - p.x / delta.x;
+		if(delta.x) t[1] = 320 - p.x / delta.x;
+		if(delta.y) t[2] = 0 - p.x / delta.x;
+		if(delta.y) t[3] = 0 - p.x / delta.x;
+	}
+
+	int hasWorldReachedTarget() {
+		return 0;
+	}
+
+	void updateWorldMovement() {
+	
+	}
+
+	void updateOppositeBulletSpam() {
+	
 	}
 
 	void updateSpellCard5() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "shii_s5", getEnemyShotCollisionList());
+		}
 	}
 
 	virtual void update() override {
@@ -1136,7 +1280,7 @@ struct ShiiBoss : Boss {
 			else {
 				updateSpellCard1();
 				if (!mLife) {
-					increaseStage(1000);
+					increaseStage(2000, 40, 10);
 				}
 			}
 		}
@@ -1152,7 +1296,7 @@ struct ShiiBoss : Boss {
 			else {
 				updateSpellCard2();
 				if (!mLife) {
-					increaseStage(1000);
+					increaseStage(2000, 40, 10);
 				}
 			}
 		}
@@ -1168,7 +1312,7 @@ struct ShiiBoss : Boss {
 			else {
 				updateSpellCard3();
 				if (!mLife) {
-					increaseStage(1000);
+					increaseStage(2000, 50, 10);
 				}
 			}
 		}
@@ -1184,7 +1328,7 @@ struct ShiiBoss : Boss {
 			else {
 				updateSpellCard4();
 				if (!mLife) {
-					increaseStage(1000);
+					increaseStage(2000, 60, 10);
 				}
 			}
 		}
@@ -1193,23 +1337,943 @@ struct ShiiBoss : Boss {
 
 
 			if (!mLife) {
-				increaseStage(1000);
+				increaseStageAfter();
 			}
 
 		}
 		else {
-			if (updateToPosition(getScreenPositionFromGamePosition(-0.5, -0.2, 20), 3)) {
-				removeBoss();
+			removeBoss();
+			startPostDialog();
+		}
+	}
+
+	virtual void hitCB(int tDamage) override {
+		if (mStage < 0) return;
+		hitCBStandard(tDamage);
+	}
+};
+
+struct ShiiMidBoss : Boss {
+
+
+	ShiiMidBoss() {
+		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1001, 13); // TODO: proper animation
+		hideHealthBar();
+		setBossName("Shii");
+		//setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
+		//mStage = 0;
+		//mSpellCard = 1;
+
+		mStageAmount = 1;
+	}
+
+	~ShiiMidBoss()
+	{
+		addLifeItem(getBlitzEntityPosition(mEntityID));
+	}
+
+	void updateNonSpell1() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "shii_mid_ns1", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateSpell1() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "shii_mid_s1", getEnemyShotCollisionList());
+		}
+	}
+
+	virtual void update() override {
+		if (mStage == -1) {
+			if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z), 3)) {
+				increaseStage(2000);
+				reshowHealthBar();
+			}
+		}
+		else if (mStage == 0) {
+			if (mSpellCard == 0) {
+
+				updateNonSpell1();
+
+				if (mLife < mLifeMax / 3) increaseSpellcard(2);
+			}
+			else {
+				updateSpell1();
+				if (!mLife) increaseStageAfter();
+			}
+		}
+		else {
+			removeBoss();
+		
+		}
+	}
+
+	virtual void hitCB(int tDamage) override {
+		if (mStage < 0) return;
+		hitCBStandard(tDamage);
+	}
+};
+
+struct HiroBoss : Boss {
+
+	HiroBoss() {
+		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1002, 13); // TODO: proper animation
+		hideHealthBar();
+		setBossName("Hiro");
+		//setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
+		//mStage = 5;
+		//mSpellCard = 0;
+
+		mStageAmount = 6;
+	}
+
+	virtual void customCB() override {
+		if (mStage == -1) {
+			reshowHealthBar();
+			increaseStage(2000);
+		}
+		mTimeInCard = -1;
+	}
+
+
+	void updateNonSpellCard1() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_ns1", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateSpellCard1() {
+		if(mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_s1", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateNonSpellCard2() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_ns2", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateSpellCard2() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_s2", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateNonSpellCard3() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_ns3", getEnemyShotCollisionList());
+		}
+	}
+
+	int spellcard3Stage = 1;
+	Position target = makePosition(0, 0, 0);
+	void updateSpellCard3() {
+		if (spellcard3Stage == 0) {
+			if (updateToPosition(getScreenPositionFromGamePosition(target.x, 0.2, BOSS_Z), 3)) {
+				spellcard3Stage = 1;
+			}
+		}
+		else if (spellcard3Stage == 1) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_s3", getEnemyShotCollisionList());
+			target.x = randfrom(0.0, 1.0);
+			spellcard3Stage = 2;
+			mTimeInCard = -1;
+		}
+		else {
+			if (mTimeInCard == 1) {
+				spellcard3Stage = 0;
 			}
 		}
 	}
 
-	virtual void hitCB() override {
+	void updateNonSpellCard4() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_ns4", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateSpellCard4() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_s4", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateNonSpellCard5() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_ns5", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateSpellCard5() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_s5", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateSpellCard6() {
+		if (mTimeInCard%120 == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_s6_1", getEnemyShotCollisionList());
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_s6_2", getEnemyShotCollisionList());
+		}
+
+		if (mTimeInCard % 140 == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "hiro_s6_3", getEnemyShotCollisionList());
+		}
+	}
+
+	virtual void update() override {
+		if (mStage == -1) {
+			if (mTimeInCard == 0) startPreDialog();
+		}
+		else if (mStage == 0) {
+			if (mSpellCard == 0) {
+
+				updateNonSpellCard1();
+
+				if (mLife <= mLifeMax / 3) {
+					increaseSpellcard(3);
+				}
+			}
+			else {
+				updateSpellCard1();
+				if (!mLife) {
+					increaseStage(2000, 50, 10);
+				}
+			}
+		}
+		else if (mStage == 1) {
+			if (mSpellCard == 0) {
+
+				updateNonSpellCard2();
+
+				if (mLife <= mLifeMax / 3) {
+					increaseSpellcard(3);
+				}
+			}
+			else {
+				updateSpellCard2();
+				if (!mLife) {
+					increaseStage(2000, 50, 10);
+				}
+			}
+		}
+		else if (mStage == 2) {
+			if (mSpellCard == 0) {
+
+				updateNonSpellCard3();
+
+				if (mLife <= mLifeMax / 3) {
+					increaseSpellcard(3);
+				}
+			}
+			else {
+				
+				if (!mLife) {
+					if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z), 3)) {
+						increaseStage(2000, 60, 10);
+					}
+				} else
+				{
+					updateSpellCard3();
+				}
+			}
+		}
+		else if (mStage == 3) {
+			if (mSpellCard == 0) {
+
+				updateNonSpellCard4();
+
+				if (mLife <= mLifeMax / 3) {
+					increaseSpellcard(3);
+				}
+			}
+			else {
+				updateSpellCard4();
+				if (!mLife) {
+					increaseStage(2000, 60, 10);
+				}
+			}
+		}
+		else if (mStage == 4) {
+			if (mSpellCard == 0) {
+
+				updateNonSpellCard5();
+
+				if (mLife <= mLifeMax / 3) {
+					increaseSpellcard(3);
+				}
+			}
+			else {
+				updateSpellCard5();
+				if (!mLife) {
+					increaseStage(2000, 60, 10);
+				}
+			}
+		}
+		else if (mStage == 5) {
+			updateSpellCard6();
+
+
+			if (!mLife) {
+				hideHealthBar();
+				increaseStageAfter();
+			}
+
+		}
+		else {
+				removeBoss();
+		}
+	}
+
+	virtual void hitCB(int tDamage) override {
 		if (mStage < 0) return;
-		hitCBStandard();
+		hitCBStandard(tDamage);
 	}
 };
 
+struct CrisisBoss : Boss {
+
+	CrisisBoss() {
+		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1002, 13); // TODO: proper animation
+		hideHealthBar();
+		setBossName("Crisis");
+	
+		mStageAmount = 6;
+	}
+
+	virtual void customCB() override {
+		if (mStage == -1) {
+			increaseStage(2000);
+		}
+		mTimeInCard = -1;
+	}
+
+	int mErrorEntity;
+	void updateSpellCard7() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "crisis", getEnemyShotCollisionList());
+			mErrorEntity = addMugenAnimation(getMugenAnimation(getLevelAnimations(), 2), getLevelSprites(), makePosition(0, 0, 2));
+			setMugenAnimationTransparency(mErrorEntity, 0);
+		}
+
+		setMugenAnimationTransparency(mErrorEntity, std::min(1.0, mTimeInCard / double(60 * 60)));
+	}
+
+	virtual void update() override {
+		if (mStage == -1) {
+			increaseStage(1000);
+			startSurvival(60);
+		}
+		else if (mStage == 0) {
+			
+			updateSpellCard7();
+
+
+			if (!mLife) {
+				increaseStageAfter();
+			}
+
+		}
+		else {
+				removeBoss();
+		}
+	}
+
+	virtual void hitCB(int tDamage) override {
+		if (mStage < 0) return;
+		hitCBStandard(tDamage);
+	}
+};
+
+
+struct AlternativeBoss : Boss {
+
+
+	AlternativeBoss() {
+		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1001, 13); // TODO: proper animation
+		hideHealthBar();
+		setBossName("ALTERNATIVE");
+		//setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
+		//mStage = 1;
+		//mSpellCard = 0;
+
+		mStageAmount = 2;
+	}
+
+	~AlternativeBoss()
+	{
+		addLifeItem(getBlitzEntityPosition(mEntityID));
+	}
+
+	void updateNonSpell1() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "alternative_ns1", getEnemyShotCollisionList());
+		}
+	}
+
+	int mStageS1 = 0;
+	void updateSpell1() {
+		if (mStageS1 == 0) {
+			if (updateToPosition(getScreenPositionFromGamePosition(0, 0.2, BOSS_Z), 3)) {
+				mStageS1 = 1;
+				mTimeInCard = -1;
+			}
+		} else if (mStageS1 == 1) {
+			if (mTimeInCard == 0) {
+				addShot(this, getBlitzEntityPosition(mEntityID), "alternative_s11", getEnemyShotCollisionList());
+			}
+			if (mTimeInCard == 30) {
+				mStageS1 = 2;
+				mTimeInCard = -1;
+			}
+		} else if (mStageS1 == 2) {
+			if (updateToPosition(getScreenPositionFromGamePosition(1, 0.2, BOSS_Z), 3)) {
+				mStageS1 = 3;
+				mTimeInCard = -1;
+			}
+		}
+		else if (mStageS1 == 3) {
+			if (mTimeInCard == 0) {
+				addShot(this, getBlitzEntityPosition(mEntityID), "alternative_s12", getEnemyShotCollisionList());
+			}
+			if (mTimeInCard == 30) {
+				mStageS1 = 0;
+				mTimeInCard = -1;
+			}
+		}
+	}
+
+	void updateSpell2() { 
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "alternative_s2", getEnemyShotCollisionList());
+		}
+	}
+
+	virtual void update() override {
+		if (mStage == -1) {
+			if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z), 3)) {
+				increaseStage(2000);
+				reshowHealthBar();
+			}
+		}
+		else if (mStage == 0) {
+			if (mSpellCard == 0) {
+
+				updateNonSpell1();
+
+				if (mLife < mLifeMax / 3) increaseSpellcard(2);
+			}
+			else {
+				
+				if (!mLife) {
+					if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z), 3)) {
+						increaseStage(1400, 50, 20);
+					}
+				} else {
+				updateSpell1();
+				}
+			}
+		}
+		else if (mStage == 1) {
+			updateSpell2();
+			if (!mLife) increaseStageAfter(50, 20);
+		}
+		else {
+				removeBoss();
+		}
+	}
+
+	virtual void hitCB(int tDamage) override {
+		if (mStage < 0) return;
+		hitCBStandard(tDamage);
+	}
+};
+
+struct MootBoss : Boss {
+
+	MootBoss() {
+		createAtPosition(getScreenPositionFromGamePosition(-0.1, 0.1, BOSS_Z), 1002, 13); // TODO: proper animation
+		hideHealthBar();
+		setBossName("Chris");
+		//setBlitzEntityPosition(mEntityID, makePosition(96 + 16, 62 + 8, BOSS_Z));
+		//mStage = 8;
+		//mSpellCard = 0;
+		mStageAmount = 9;
+	}
+
+	virtual void customCB() override {
+		if (mStage == -1) {
+			reshowHealthBar();
+			increaseStage(2000);
+		}
+		mTimeInCard = -1;
+	}
+
+
+	void updateNonSpellCard1() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_ns1", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateSpellCard1() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_s1", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateNonSpellCard2() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_ns2", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateSpellCard2() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_s2", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateNonSpellCard3() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_ns3", getEnemyShotCollisionList());
+		}
+	}
+
+	int spellcard3Stage = 0;
+	vector<Position> targets =
+	{ 
+		getScreenPositionFromGamePosition(0, 0.5, BOSS_Z), 
+		getScreenPositionFromGamePosition(1, 0.5, BOSS_Z),
+		getScreenPositionFromGamePosition(0.5, 0, BOSS_Z),
+		getScreenPositionFromGamePosition(0.5, 1, BOSS_Z),
+
+	};
+	int mCurrentTarget = 0;
+	int mSnacksEntity;
+	
+	void createSnacks() {
+		mSnacksEntity = addBlitzEntity(makePosition(96 + 16, 62 + 38, BOSS_Z));
+		addBlitzMugenAnimationComponent(mSnacksEntity, getLevelSprites(), getLevelAnimations(), 1003);
+		addBlitzCollisionComponent(mSnacksEntity);
+		int collisionID = addBlitzCollisionCirc(mSnacksEntity, getEnemyCollisionList(), makeCollisionCirc(makePosition(0, 0, 0), 12));
+		addBlitzCollisionCB(mSnacksEntity, collisionID, bossHitCB, NULL);
+		addShot(this, getBlitzEntityPosition(mEntityID), "snacks_s3", getEnemyShotCollisionList());
+	}
+
+	void updateSpellCard3() {
+		if (spellcard3Stage == 0) {
+			createSnacks();
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_s3", getEnemyShotCollisionList());
+			spellcard3Stage = 1;
+		}
+		else if (spellcard3Stage == 1) {
+			if (updateToPositionEntity(mSnacksEntity, targets[mCurrentTarget], 5)) {
+				spellcard3Stage = 2;
+				mCurrentFrame = -1;
+			}
+			addBlitzEntityRotationZ(mSnacksEntity, 0.1);
+		}
+		else if (spellcard3Stage == 2) {
+			if (mCurrentFrame == 60) {
+				mCurrentTarget = (mCurrentTarget + 1) % targets.size();
+				spellcard3Stage = 1;
+			}
+		}
+	}
+
+	struct Anon {
+		int mEntityID;
+		int mWasShotAt = 0;
+		int mNow = 0;
+		int mDuration;
+		int mIsDead = 0;
+		Anon() {
+			Position p = getScreenPositionFromGamePosition(randfrom(0.1, 0.9), 1.0, 30);
+
+			mEntityID = addBlitzEntity(p);
+			addBlitzMugenAnimationComponent(mEntityID, getEnemySprites(), getEnemyAnimations(), 13);
+			addBlitzCollisionComponent(mEntityID);
+			int id = addBlitzCollisionCirc(mEntityID, getPlayerCollisionList(), makeCollisionCirc(makePosition(0, 0, 0), 3));
+			addBlitzCollisionCB(mEntityID, id, anonHitCB, this);
+			addBlitzPhysicsComponent(mEntityID);
+			addBlitzPhysicsVelocityY(mEntityID, -0.6);
+
+			mDuration = randfromInteger(60, 150);
+		}
+
+		~Anon() {
+			removeBlitzEntity(mEntityID);
+		}
+
+		int update() {
+			if (mNow > 0 && mNow % mDuration == 0) {
+				addShot(this, getBlitzEntityPosition(mEntityID), "moot_s5", getEnemyShotCollisionList());
+			}
+			mNow++;
+
+			const auto y = getBlitzEntityPositionY(mEntityID);
+
+			return y < 0 || mIsDead;
+		}
+
+	};
+
+	map<int, unique_ptr<Anon> > mAnons;
+
+	void updateAnons() {
+		stl_int_map_remove_predicate(mAnons, &Anon::update);
+	}
+
+	void clearAnons() {
+		mAnons.clear();
+	}
+
+	void addAnon(int frequency) {
+		stl_int_map_push_back(mAnons, std::move(make_unique<Anon>()));
+	}
+
+	int timeSinceShot = 0;
+	void updateSpellCard4() {
+		timeSinceShot++;
+		if (timeSinceShot > 180) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_s4", getEnemyShotCollisionList());
+		}
+	}
+
+	void updateSpellCard5() {
+		if (mTimeInCard %30 == 0) {
+			addAnon(20);
+		}
+
+		updateAnons();
+	}
+
+	int mEntity2;
+	int mEntity3;
+	int mEntity4;
+	void createNewCharacter(int& entityID, Position tPos, int tAnimation) {
+		entityID = addBlitzEntity(tPos);
+		addBlitzMugenAnimationComponent(entityID, getLevelSprites(), getLevelAnimations(), tAnimation);
+		addBlitzCollisionComponent(entityID);
+		int collisionID = addBlitzCollisionCirc(entityID, getEnemyCollisionList(), makeCollisionCirc(makePosition(0, 0, 0), 13));
+		addBlitzCollisionCB(entityID, collisionID, bossHitCB, NULL);
+	}
+
+	void createCharacters() {
+		createNewCharacter(mEntity2, getScreenPositionFromGamePosition(-0.1, -0.1, BOSS_Z), 1001); // ALTERNATIVE
+		if (getPlayerEnumValue() == PlayerFuncs::PLAYER_YOURNAMEHERE) {
+			createNewCharacter(mEntity3, getScreenPositionFromGamePosition(-0.1, -0.1, BOSS_Z), 1005); // KINOMOD
+			createNewCharacter(mEntity4, getScreenPositionFromGamePosition(-0.1, -0.1, BOSS_Z), 1006); // AEROLITE
+		} else if (getPlayerEnumValue() == PlayerFuncs::PLAYER_KINOMOD) {
+			createNewCharacter(mEntity3, getScreenPositionFromGamePosition(-0.1, -0.1, BOSS_Z), 1004); // YOURNAMEHERE
+			createNewCharacter(mEntity4, getScreenPositionFromGamePosition(-0.1, -0.1, BOSS_Z), 1006); // AEROLITE
+		}
+		else {
+			createNewCharacter(mEntity3, getScreenPositionFromGamePosition(-0.1, -0.1, BOSS_Z), 1004); // YOURNAMEHERE
+			createNewCharacter(mEntity4, getScreenPositionFromGamePosition(-0.1, -0.1, BOSS_Z), 1005); // KINOMOD
+		}
+	}
+
+	void removeCharacter(int tEntity)
+	{
+		int id = addMugenAnimation(getMugenAnimation(getUIAnimations(), 16), getUISprites(), getBlitzEntityPosition(tEntity) + makePosition(0, 0, 1));
+		setMugenAnimationNoLoop(id);
+		removeBlitzEntity(tEntity);
+	}
+
+	void removeCharacters()
+	{
+		removeCharacter(mEntity2);
+		removeCharacter(mEntity3);
+		removeCharacter(mEntity4);
+	}
+
+	void addCharacterShot(int entity) {
+		int anim = getBlitzMugenAnimationAnimationNumber(entity);
+		string name = "";
+		if (anim == 1001) {
+			name = "alternative_s6";
+		} else if (anim == 1005) {
+			name = "kinomod_s6";
+		}
+		else if(anim == 1006) {
+			name = "aerolite_s6";
+		}
+		else {
+			name = "yournamehere_s6";
+		}
+
+		addShot(this, getBlitzEntityPosition(entity), name, getEnemyShotCollisionList());
+	}
+
+	void updateNonSpellCard6() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_ns6", getEnemyShotCollisionList());
+		}
+	}
+
+	int mSpell6Stage = 0;
+	void updateSpellCard6() {
+		if (mSpell6Stage == 0) {
+			createCharacters();
+			mSpell6Stage = 1;
+		} else if (mSpell6Stage == 1) {
+			int areAllThere = 1;
+			areAllThere &= updateToPosition(getScreenPositionFromGamePosition(0.5, 0.1, BOSS_Z), 3);
+			areAllThere &= updateToPositionEntity(mEntity2, getScreenPositionFromGamePosition(0.25, 0.2, BOSS_Z+1), 3);
+			areAllThere &= updateToPositionEntity(mEntity3, getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z+1), 3);
+			areAllThere &= updateToPositionEntity(mEntity4, getScreenPositionFromGamePosition(0.75, 0.2, BOSS_Z+1), 3);
+			if (areAllThere) {
+				mSpell6Stage = 2;
+			}
+		}
+		else if (mSpell6Stage == 2) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_s6", getEnemyShotCollisionList());
+			addCharacterShot(mEntity2);
+			addCharacterShot(mEntity3);
+			addCharacterShot(mEntity4);
+			mSpell6Stage = 3;
+		}
+	}
+
+	void updateNonSpellCard7() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_ns7", getEnemyShotCollisionList());
+		}
+	}
+
+	int mSpellCard7Stage = 0;
+	void updateSpellCard7() {
+		if (mSpellCard7Stage == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_s7", getEnemyShotCollisionList());
+			mSpellCard7Stage++;
+		}
+		else if (mSpellCard7Stage == 1)
+		{
+			if (updateToPosition(getScreenPositionFromGamePosition(0, 0.2, BOSS_Z), 3)) {
+				mSpellCard7Stage++;
+				mTimeInCard = -1;
+			}
+		}
+		else if (mSpellCard7Stage == 2)
+		{
+			if (mTimeInCard == 180) {
+				mSpellCard7Stage++;
+			}
+		}
+		else if (mSpellCard7Stage == 3)
+		{
+			if (updateToPosition(getScreenPositionFromGamePosition(1.0, 0.2, BOSS_Z), 3)) {
+				mSpellCard7Stage++;
+				mTimeInCard = -1;
+			}
+		}
+		else if (mSpellCard7Stage == 4)
+		{
+			if (mTimeInCard == 180) {
+				mSpellCard7Stage = 1;
+			}
+		}
+	}
+
+	void updateSpellCard8() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_s8", getEnemyShotCollisionList());
+		}
+	}
+
+	virtual void update() override {
+		if (mStage == -1) {
+			if (mTimeInCard == 0) startPreDialog();
+		}
+		else if (mStage == 0) {
+			if (mSpellCard == 0) {
+
+				updateNonSpellCard1();
+
+				if (mLife <= mLifeMax / 3) {
+					increaseSpellcard(3);
+				}
+			}
+			else {
+				updateSpellCard1();
+				if (!mLife) {
+					increaseStage(2000, 40, 10);
+				}
+			}
+		}
+		else if (mStage == 1) {
+			if (mSpellCard == 0) {
+
+				updateNonSpellCard2();
+
+				if (mLife <= mLifeMax / 3) {
+					increaseSpellcard(3);
+				}
+			}
+			else {
+				updateSpellCard2();
+				if (!mLife) {
+					increaseStage(2000, 50, 10);
+				}
+			}
+		}
+		else if (mStage == 2) {
+			if (mSpellCard == 0) {
+
+				updateNonSpellCard3();
+
+				if (mLife <= mLifeMax / 3) {
+					increaseSpellcard(3);
+				}
+			}
+			else {
+				updateSpellCard3();
+				if (!mLife) {
+					increaseStage(2000, 50, 10);
+				}
+			}
+		}
+		else if (mStage == 3) {
+			if (mSpellCard == 0)
+			{
+				setBlitzEntityRotationZ(mSnacksEntity, 0);
+				int done = updateToPosition(getScreenPositionFromGamePosition(0.5, -0.2, BOSS_Z), 3);
+				done &= updateToPositionEntity(mSnacksEntity, getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z), 3);
+				if (done) mSpellCard++;
+			}
+			else {
+				updateSpellCard4();
+				if (!mLife) {
+					increaseStage(2000, 50, 10);
+				}
+			}
+
+		}
+		else if (mStage == 4) {
+			if (mSpellCard == 0)
+			{
+				if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z), 3))
+				{
+					mSpellCard++;
+				}
+			}
+			else if (mSpellCard == 1) {
+				if (updateToPositionEntity(mSnacksEntity, getScreenPositionFromGamePosition(0.5, 1.2, BOSS_Z), 5))
+				{
+					mSpellCard++;
+				}
+				addBlitzEntityRotationZ(mSnacksEntity, 0.3);
+			}
+			else {
+				updateSpellCard5();
+
+				if (!mLife) {
+					clearAnons();
+					increaseStage(2000, 50, 10);
+				}
+			}
+		}
+		else if (mStage == 5) {
+			if (mSpellCard == 0)
+			{
+				updateNonSpellCard6();
+
+				if (mLife <= mLifeMax / 3) {
+					increaseSpellcard(3);
+				}
+			}
+			else if (mSpellCard == 1) {
+				updateSpellCard6();
+
+				if (!mLife) {
+					removeCharacters();
+					mSpellCard++;
+					increaseStageAfter();
+				}
+			}
+			else
+			{
+				if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.2, BOSS_Z), 3))
+				{
+					increaseStage(2000, 50, 10);
+				}
+
+			}
+		}
+		else if (mStage == 6) {
+			if (mSpellCard == 0)
+			{
+				updateNonSpellCard7();
+
+				if (mLife <= mLifeMax / 3) {
+					increaseSpellcard(3);
+				}
+			}
+			else {
+				if (!mLife) {
+					if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.5, BOSS_Z), 3))
+					{
+						increaseStage(2000, 50, 10);
+						startSurvival(60);
+					}
+
+				}
+				else
+				{
+					updateSpellCard7();
+				}
+			}
+
+		}
+		else if (mStage == 7) {
+			if (!mLife) {
+				if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.5, BOSS_Z), 3))
+				{
+					increaseStage(3000, 50, 10);
+				}
+
+			}
+			else
+			{
+				updateSpellCard8();
+			}
+		}
+		else if (mStage == 8) {
+			updateSpellCard9();
+
+			if (!mLife) {
+				if (updateToPosition(getScreenPositionFromGamePosition(0.5, 0.5, BOSS_Z), 3))
+				{
+					increaseStageAfter();
+				}
+
+			}
+		}
+		else {
+		startPostDialog();
+			removeBoss();
+		}
+	}
+
+	void updateSpellCard9() {
+		if (mTimeInCard == 0) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_s9", getEnemyShotCollisionList());
+		}
+	}
+
+	virtual void hitCB(int tDamage) override {
+		if (mStage < 0) return;
+		if (mStage == 3) {
+			addShot(this, getBlitzEntityPosition(mEntityID), "moot_s4", getEnemyShotCollisionList());
+			timeSinceShot = 0;
+		}
+		hitCBStandard(tDamage);
+	}
+};
 
 void addBoss(std::string tName)
 {
@@ -1235,6 +2299,21 @@ void addBoss(std::string tName)
 	else if (tName == "Shii") {
 		gBossData.mBoss = make_unique<ShiiBoss>();
 	}
+	else if (tName == "ShiiMid") {
+		gBossData.mBoss = make_unique<ShiiMidBoss>();
+	}
+	else if (tName == "Hiro") {
+		gBossData.mBoss = make_unique<HiroBoss>();
+	}
+	else if (tName == "Crisis") {
+		gBossData.mBoss = make_unique<CrisisBoss>();
+	}
+	else if (tName == "Alternative") {
+		gBossData.mBoss = make_unique<AlternativeBoss>();
+	}
+	else if (tName == "Moot") {
+		gBossData.mBoss = make_unique<MootBoss>();
+	}
 	else {
 		return;
 	}
@@ -1252,6 +2331,24 @@ Position getBossPosition()
 	if (!gBossData.mIsActive) return makePosition(0, 0, 0);
 
 	return gBossData.mBoss->getPosition();
+}
+
+Position getSnacksPosition()
+{
+	if (!gBossData.mIsActive) return makePosition(0, 0, 0);
+	MootBoss* mootBoss = (MootBoss*)gBossData.mBoss.get();
+	return getBlitzEntityPosition(mootBoss->mSnacksEntity);
+}
+
+static void anonHitCB(void* tCaller, void* tCollisionData) {
+	MootBoss::Anon* anon = (MootBoss::Anon*)tCaller;
+	anon->mIsDead = 1;
+}
+
+Position getAnonPosition(void * tCaller)
+{
+	MootBoss::Anon* anon = (MootBoss::Anon*)tCaller;
+	return getBlitzEntityPosition(anon->mEntityID);
 }
 
 void bossFinishedDialogCB()

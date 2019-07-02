@@ -1,7 +1,7 @@
 #include "bghandler.h"
 
 #include <prism/blitz.h>
-
+#include <memory>
 #include "level.h"
 #include "debug.h"
 
@@ -25,15 +25,18 @@ struct BGHandler {
 		mBlitzEntity1 = addBlitzEntity(makePosition(gGameVars.gameScreenOffset.x, -mSize.y, BG_Z));
 		addBlitzMugenAnimationComponent(mBlitzEntity1, sprites, animations, 1);
 		addBlitzPhysicsComponent(mBlitzEntity1);
-		addBlitzPhysicsVelocityY(mBlitzEntity1, 6);
-
+		if (getCurrentLevel() != 4) {
+			addBlitzPhysicsVelocityY(mBlitzEntity1, 6);
+		}
 		mBlitzEntity2 = addBlitzEntity(makePosition(gGameVars.gameScreenOffset.x, 0, BG_Z));
 		addBlitzMugenAnimationComponent(mBlitzEntity2, sprites, animations, 1);
 		addBlitzPhysicsComponent(mBlitzEntity2);
-		addBlitzPhysicsVelocityY(mBlitzEntity2, 6);
+		if (getCurrentLevel() != 4) {
+			addBlitzPhysicsVelocityY(mBlitzEntity2, 6);
+		}
 
 		mWhiteTexture = createWhiteTexture();
-		blackAnimationID = playOneFrameAnimationLoop(makePosition(0, 0, BG_Z + 1), &mWhiteTexture);
+		blackAnimationID = playOneFrameAnimationLoop(makePosition(0, 0, BG_Z + 2), &mWhiteTexture);
 		setAnimationSize(blackAnimationID, makePosition(320, 240, 1), makePosition(0, 0, 0));
 		setAnimationColor(blackAnimationID, 0, 0, 0);
 		setAnimationTransparency(blackAnimationID, 0.3);

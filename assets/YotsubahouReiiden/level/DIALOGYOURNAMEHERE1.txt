@@ -1,0 +1,36 @@
+[Speaker yournamehere]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker Accelerator]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker fission]
+
+[DialogPre]
+start = normal,gone
+yournamehere: I imagined it to be worse. It's been a while since we've run into any MAJOR pains in the butts.
+intro=1
+Accelerator[normal]: Halt villain! Your rampaging ends here!
+yournamehere: Maybe I have a gift.
+yournamehere: It's been a while since we've run into enormous piles of money.
+Accelerator: My name is Accelerator. 
+fission: Wouldn't it be bitcoin? /biz/ is pretty close after all.
+Accelerator: With the power of proxies and my loli folder, I shall vanquish all you fiendish moderators once again!
+yournamehere: It's been a while since we've run into enormous piles of bitcoins.
+fission: ...
+yournamehere: ...
+Accelerator: ...
+yournamehere: Sigh, looks like I can only summon 2010-era image board threats.
+fission: The greatest gift of all.
+Accelerator: All the stars in the sky are proxies, bring it on!
+
+[DialogPost]
+start = normal,gone
+yournamehere: They come, I make them leave~
+yournamehere: Let's check out /biz/ next, I have a good feeling!
+fission: You're really holding onto that bitcoin fantasy, aren't you?

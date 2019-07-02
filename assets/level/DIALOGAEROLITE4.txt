@@ -1,0 +1,50 @@
+[Speaker Aerolite]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker Hiro]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker cygnus]
+
+[DialogPre]
+start = normal,gone
+intro = 1
+Hiro[normal]: Monsieur Shii, the preparations sont almost comple- Eh? Monsieur Aerolite?
+Aerolite: Hi boss! I banned four super threats today! Are you proud of me?
+cygnus: ...
+Hiro: Aerolite, tu es-
+Aerolite: (Here it comes~ The best part~)
+Hiro: Un idiot.
+Aerolite: ... eh?
+Aerolite: That's... not right.
+Hiro: Je freed tout the bad posters so I could enforce the ruleux and get advertisements back.
+Hiro: And tu almost broke my plan.
+Aerolite: I did... bad? I'm going... to get yelled at again? 
+Cygnus: ...
+Cygnus: A... erolite.
+Aerolite: Unfortunate breathing pause.
+Hiro: Hon hon!
+Cygnus: I've seen how you dealt with all those powerful villains. You never faltered and performed admirably.
+Aerolite: Admirably? Y- you're proud of me?
+Cygnus: Aerolite, you already have all you need inside of you. You don't need my approval.
+Aerolite: Do I need hiro's approval?
+Hiro: Does he? Je ne sauvais either.
+Cygnus: I'm trying to have an emotional moment here but you guys just want to be stupid.
+Aerolite: Bro...
+Hiro: Bro...
+Aerolite: No, I got you cygnus. I will deal with it the way I feel is right.
+Aerolite: That is our way! That is the way I should have always done it!
+Hiro: I'll show you the difference between Administrator and Moderator!
+Aerolite: I'll show you the difference between Administrator and Moderator!
+
+[DialogPost]
+start = normal,gone
+Aerolite: Banning a fellow moderator felt surprisingly well.
+Aerolite: Tasted like chicken.
+cygnus: B- bro?
+

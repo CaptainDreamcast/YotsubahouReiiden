@@ -1,0 +1,35 @@
+[Speaker yournamehere]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker Chris]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[DialogPre]
+start = normal,normal
+intro = 1
+Chris: It has been years, yournamehere, I'm sure you must have many que-
+yournamehere: Who?
+Chris: ...
+yournamehere: ...
+Chris: ...
+Chris: I came to check up on you guys after the whole cyber prison breaking affair, but it seems you managed just fine.
+yournamehere: You came to check up on us on Google+? That's nice of you.
+Chris: I get that you're still mad about me leavi-
+yournamehere: Who?
+Chris: - but you can stand on your own two feet now.
+yournamehere: Save the schmaltz for Aerolite, I had enough of that in the main story.
+yournamehere: I just want to hit my favorite moot pinata!
+Chris: That's the spirit! Let's go!
+
+[DialogPost]
+start = normal,normal
+Chris: Ouch ouch ouch! Aren't you a little strong for a moderator?
+yournamehere: You're the second admin I took down this week, how many do I have to kill until I am one too?
+yournamehere: Do I have to drink your spinal cord fluid?
+Chris: That's just sil- AHHHH, STOP SUCKING ON MY NECK!
+yournamehere: SHTOP RESHISHTING---!

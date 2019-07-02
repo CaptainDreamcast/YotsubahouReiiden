@@ -1,0 +1,145 @@
+[Header]
+Sprites = levels/INTRO.sff
+
+[STORYSTART]
+
+[Image 1]
+Group = 1
+Item = 0
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "With the site down, kinomod had a lot of time to think. Finally, he had fi-"
+
+[Text 1]
+Speaker = ""
+Text = "kinomod: "I HAVE FIGURED IT OUT!""
+
+[Text 1]
+Speaker = ""
+Text = "Or you say it. Sure, take my ONE thing away."
+
+[Text 1]
+Speaker = ""
+Text = "kinomod: "Hiro planned to have bad posters flood the site so he could enforce the rules with an iron fist later on.""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "Oui.""
+
+[Text 1]
+Speaker = ""
+Text = "kinomod: "Because you needed money!""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "Oui.""
+
+[Text 1]
+Speaker = ""
+Text = "kinomod: "That was your plan to get advertisers back to the site!""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "Oui. I just told you tout of this, I don't know why you are retelling all this to me.""
+
+[Image 1]
+Group = 1
+Item = 1
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "kinomod: "I could have never figured it out without your help, A-""
+
+[Text 1]
+Speaker = ""
+Text = "Abib: *sweating*"
+
+[Text 1]
+Speaker = ""
+Text = "kinomod: "Abib.""
+
+[Text 1]
+Speaker = ""
+Text = "Abib: "!""
+
+[Text 1]
+Speaker = ""
+Text = "kinomod: "I always thought you were an idiot-""
+
+[Text 1]
+Speaker = ""
+Text = "Abib: "I always hated you since I was a janitor-""
+
+[Text 1]
+Speaker = ""
+Text = "kinomod&Abib: "But there's more to you than meets the eye.""
+
+[Text 1]
+Speaker = ""
+Text = "kinomod: "My buddy.""
+
+[Text 1]
+Speaker = ""
+Text = "Abib: "My acquaintance.""
+
+[Text 1]
+Speaker = ""
+Text = "Abib: "... Oh, oops.""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "Oui, oui, you shared three sentences in the game and are best of amis, but what about mon money?""
+
+[Text 1]
+Speaker = ""
+Text = "kinomod: "Don't worry! I have a plan!""
+
+[Image 1]
+Group = 1
+Item = 2
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "kinomod: "Check this out! A VIRTUAL YOUTUBER! What do you think? Huh? Huh?""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "...""
+
+[Text 1]
+Speaker = ""
+Text = "Abib: "...""
+
+[Text 1]
+Speaker = ""
+Text = "Everyone: "...""
+
+[Text 1]
+Speaker = ""
+Text = "Nobody had the heart to tell kinomod that a virtual youtuber had already been in the works for a couple of months."
+
+[Text 1]
+Speaker = ""
+Text = "And so, the curtain closes on kinomod's adventure."
+
+[Text 1]
+Speaker = ""
+Text = "The site continued, as broke as ever, and everyone lived happily ever after (except hiro)."
+
+[Text 1]
+Speaker = ""
+Text = "Good Ending #2 ~ We're still waiting on the Vtuber!"
+
+[Text 1]
+Speaker = ""
+Text = "You beat the game without continues! Congratulations! All that's left is the encounter with an old friend in the extra stage!"
+
+
+[Title]

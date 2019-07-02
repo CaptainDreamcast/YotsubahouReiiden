@@ -1,0 +1,10475 @@
+[Section downside]
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.3,0.3
+p4.pos = 0.3,0.5
+p5.pos = -0.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+score = 5
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.1
+p3.pos = 0.7,0.3
+p4.pos = 0.7,0.5
+p5.pos = 1.1,0.6
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 9999
+power = 5
+life = 30
+
+[Section intro]
+
+
+[Intro]
+time = 60
+name = "Google+"
+text = "The final ghost from the land of clovers"
+
+[WaitIntro]
+
+[Section woosh]
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.2
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.1
+p2.duration = 120
+p3.pos = 0.5,-0.1
+s1.time = 10
+s1.name = "enemy_five_aimed"
+s1.frequency = 1,80
+s2.time = 999
+power = 100
+score = 10
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.2
+radius = 5
+p1.pos = 0.25,-0.1
+p2.pos = 0.25,0.1
+p2.duration = 120
+p3.pos = 0.25,-0.1
+s1.time = 10
+s1.name = "enemy_five_aimed"
+s1.frequency = 1,80
+s2.time = 999
+power = 100
+score = 10
+life = 30
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.2
+radius = 5
+p1.pos = 0.75,-0.1
+p2.pos = 0.75,0.1
+p2.duration = 120
+p3.pos = 0.75,-0.1
+s1.time = 10
+s1.name = "enemy_five_aimed"
+s1.frequency = 1,80
+s2.time = 999
+power = 100
+score = 10
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 240
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 360
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 30
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Enemy 1]
+time = 30
+name = "enemy1"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+power = 5
+life = 30
+
+
+[Enemy 1]
+time = 400
+name = "enemy2"
+speed = 2
+radius = 5
+p1.pos = 1.1,0.25
+p2.pos = 0.7,0.25
+p3.pos = 0.5,0.25
+p4.pos = 0.25,0.15
+p5.pos = 0.5, 0.05
+p6.pos = 0.7, 0.15
+p7.pos = 0.5,0.25
+p8.pos = 0.25,0.25
+p9.pos = -0.1,0.15
+s1.time = 10
+s1.name = "enemy_mid_aimed"
+s1.frequency = 1,80
+s2.time = 150
+s2.name = "enemy_circle_slim"
+s2.frequency = 1
+s3.time = 1
+death.shot = "enemy_five_aimed_different"
+score = 5
+life = 30
+
+[Section 3]
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.5,-.1
+p2.pos = 0.5,0.0
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.2
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.4
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.6
+p9.pos = 1.5,0.6
+s1.time = 60
+s1.name = "enemy_laser_circle"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.25,-.1
+p2.pos = 0.25,0.0
+p3.pos = 0.25,0.1
+p4.pos = 0.25,0.2
+p5.pos = 0.25,0.3
+p6.pos = 0.25,0.4
+p7.pos = 0.25,0.5
+p8.pos = 0.25,0.6
+p9.pos = 1.25,0.6
+s1.time = 60
+s1.name = "enemy_laser_circle"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.75,-.1
+p2.pos = 0.75,0.0
+p3.pos = 0.75,0.1
+p4.pos = 0.75,0.2
+p5.pos = 0.75,0.3
+p6.pos = 0.75,0.4
+p7.pos = 0.75,0.5
+p8.pos = 0.75,0.6
+p9.pos = 1.75,0.6
+s1.time = 60
+s1.name = "enemy_laser_circle"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.5,-.1
+p2.pos = 0.5,0.0
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.2
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.4
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.6
+p9.pos = 1.5,0.6
+s1.time = 60
+s1.name = "enemy_laser_circle"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.3,-.1
+p2.pos = 0.3,0.0
+p3.pos = 0.3,0.1
+p4.pos = 0.3,0.2
+p5.pos = 0.3,0.3
+p6.pos = 0.3,0.4
+p7.pos = 0.3,0.5
+p8.pos = 0.3,0.6
+p9.pos = 1.3,0.6
+s1.time = 60
+s1.name = "enemy_laser_circle"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.6,-.1
+p2.pos = 0.6,0.0
+p3.pos = 0.6,0.1
+p4.pos = 0.6,0.2
+p5.pos = 0.6,0.3
+p6.pos = 0.6,0.4
+p7.pos = 0.6,0.5
+p8.pos = 0.6,0.6
+p9.pos = 1.6,0.6
+s1.time = 60
+s1.name = "enemy_laser_circle"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.5,-.1
+p2.pos = 0.5,0.0
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.2
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.4
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.6
+p9.pos = 1.5,0.6
+s1.time = 60
+s1.name = "enemy_laser_circle"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.25,-.1
+p2.pos = 0.25,0.0
+p3.pos = 0.25,0.1
+p4.pos = 0.25,0.2
+p5.pos = 0.25,0.3
+p6.pos = 0.25,0.4
+p7.pos = 0.25,0.5
+p8.pos = 0.25,0.6
+p9.pos = 1.25,0.6
+s1.time = 60
+s1.name = "enemy_laser_circle"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.75,-.1
+p2.pos = 0.75,0.0
+p3.pos = 0.75,0.1
+p4.pos = 0.75,0.2
+p5.pos = 0.75,0.3
+p6.pos = 0.75,0.4
+p7.pos = 0.75,0.5
+p8.pos = 0.75,0.6
+p9.pos = 1.75,0.6
+s1.time = 60
+s1.name = "enemy_laser_circle"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.5,-.1
+p2.pos = 0.5,0.0
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.2
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.4
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.6
+p9.pos = 1.5,0.6
+s1.time = 60
+s1.name = "enemy_laser_circle"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Section 2]
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.1,-0.1
+p2.pos = -0.1,0.1
+p3.pos = 0.4,0.1
+p4.pos = 0.4,0.3
+p5.pos = -0.1,0.3
+p6.pos = -0.1,0.5
+p7.pos = 0.4,0.5
+p8.pos = 0.4,0.7
+p9.pos = -0.1,0.7
+p10.pos = -0.1,0.9
+p11.pos = 1.4,0.9
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.0,-0.1
+p2.pos = 0.0,0.1
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.3
+p5.pos = 0.0,0.3
+p6.pos = 0.0,0.5
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.7
+p9.pos = 0.0,0.7
+p10.pos = 0.0,0.9
+p11.pos = 1.5,0.9
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.1
+p2.pos = 0.1,0.1
+p3.pos = 0.6,0.1
+p4.pos = 0.6,0.3
+p5.pos = 0.1,0.3
+p6.pos = 0.1,0.5
+p7.pos = 0.6,0.5
+p8.pos = 0.6,0.7
+p9.pos = 0.1,0.7
+p10.pos = 0.1,0.9
+p11.pos = 1.6,0.9
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.1
+p2.pos = 0.2,0.1
+p3.pos = 0.7,0.1
+p4.pos = 0.7,0.3
+p5.pos = 0.2,0.3
+p6.pos = 0.2,0.5
+p7.pos = 0.7,0.5
+p8.pos = 0.7,0.7
+p9.pos = 0.2,0.7
+p10.pos = 0.2,0.9
+p11.pos = 1.7,0.9
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.8,0.1
+p4.pos = 0.8,0.3
+p5.pos = 0.3,0.3
+p6.pos = 0.3,0.5
+p7.pos = 0.8,0.5
+p8.pos = 0.8,0.7
+p9.pos = 0.3,0.7
+p10.pos = 0.3,0.9
+p11.pos = 1.8,0.9
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.1
+p2.pos = 0.4,0.1
+p3.pos = 0.9,0.1
+p4.pos = 0.9,0.3
+p5.pos = 0.4,0.3
+p6.pos = 0.4,0.5
+p7.pos = 0.9,0.5
+p8.pos = 0.9,0.7
+p9.pos = 0.4,0.7
+p10.pos = 0.4,0.9
+p11.pos = 1.9,0.9
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.1
+p3.pos = 1.0,0.1
+p4.pos = 1.0,0.3
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.5
+p7.pos = 1.0,0.5
+p8.pos = 1.0,0.7
+p9.pos = 0.5,0.7
+p10.pos = 0.5,0.9
+p11.pos = 2.0,0.9
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.1
+p2.pos = 0.6,0.1
+p3.pos = 1.1,0.1
+p4.pos = 1.1,0.3
+p5.pos = 0.6,0.3
+p6.pos = 0.6,0.5
+p7.pos = 1.1,0.5
+p8.pos = 1.1,0.7
+p9.pos = 0.6,0.7
+p10.pos = 0.6,0.9
+p11.pos = 2.1,0.9
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+;-------------------------------------------------------
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.1,-0.15
+p2.pos = -0.1,0.05
+p3.pos = 0.4,0.05
+p4.pos = 0.4,0.25
+p5.pos = -0.1,0.25
+p6.pos = -0.1,0.45
+p7.pos = 0.4,0.45
+p8.pos = 0.4,0.65
+p9.pos = -0.1,0.65
+p10.pos = -0.1,0.85
+p11.pos = 1.4,0.85
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.0,-0.15
+p2.pos = 0.0,0.05
+p3.pos = 0.5,0.05
+p4.pos = 0.5,0.25
+p5.pos = 0.0,0.25
+p6.pos = 0.0,0.45
+p7.pos = 0.5,0.45
+p8.pos = 0.5,0.65
+p9.pos = 0.0,0.65
+p10.pos = 0.0,0.85
+p11.pos = 1.5,0.85
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.15
+p2.pos = 0.1,0.05
+p3.pos = 0.6,0.05
+p4.pos = 0.6,0.25
+p5.pos = 0.1,0.25
+p6.pos = 0.1,0.45
+p7.pos = 0.6,0.45
+p8.pos = 0.6,0.65
+p9.pos = 0.1,0.65
+p10.pos = 0.1,0.85
+p11.pos = 1.6,0.85
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.15
+p2.pos = 0.2,0.05
+p3.pos = 0.7,0.05
+p4.pos = 0.7,0.25
+p5.pos = 0.2,0.25
+p6.pos = 0.2,0.45
+p7.pos = 0.7,0.45
+p8.pos = 0.7,0.65
+p9.pos = 0.2,0.65
+p10.pos = 0.2,0.85
+p11.pos = 1.7,0.85
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.15
+p2.pos = 0.3,0.05
+p3.pos = 0.8,0.05
+p4.pos = 0.8,0.25
+p5.pos = 0.3,0.25
+p6.pos = 0.3,0.45
+p7.pos = 0.8,0.45
+p8.pos = 0.8,0.65
+p9.pos = 0.3,0.65
+p10.pos = 0.3,0.85
+p11.pos = 1.8,0.85
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.15
+p2.pos = 0.4,0.05
+p3.pos = 0.9,0.05
+p4.pos = 0.9,0.25
+p5.pos = 0.4,0.25
+p6.pos = 0.4,0.45
+p7.pos = 0.9,0.45
+p8.pos = 0.9,0.65
+p9.pos = 0.4,0.65
+p10.pos = 0.4,0.85
+p11.pos = 1.9,0.85
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.15
+p2.pos = 0.5,0.05
+p3.pos = 1.0,0.05
+p4.pos = 1.0,0.25
+p5.pos = 0.5,0.25
+p6.pos = 0.5,0.45
+p7.pos = 1.0,0.45
+p8.pos = 1.0,0.65
+p9.pos = 0.5,0.65
+p10.pos = 0.5,0.85
+p11.pos = 2.0,0.85
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.15
+p2.pos = 0.6,0.05
+p3.pos = 1.1,0.05
+p4.pos = 1.1,0.25
+p5.pos = 0.6,0.25
+p6.pos = 0.6,0.45
+p7.pos = 1.1,0.45
+p8.pos = 1.1,0.65
+p9.pos = 0.6,0.65
+p10.pos = 0.6,0.85
+p11.pos = 2.1,0.85
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+;-------------------------------------------------------
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.1,-0.2
+p2.pos = -0.1,0.0
+p3.pos = 0.4,0.0
+p4.pos = 0.4,0.2
+p5.pos = -0.1,0.2
+p6.pos = -0.1,0.4
+p7.pos = 0.4,0.4
+p8.pos = 0.4,0.6
+p9.pos = -0.1,0.6
+p10.pos = -0.1,0.8
+p11.pos = 1.4,0.8
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.0,-0.2
+p2.pos = 0.0,0.0
+p3.pos = 0.5,0.0
+p4.pos = 0.5,0.2
+p5.pos = 0.0,0.2
+p6.pos = 0.0,0.4
+p7.pos = 0.5,0.4
+p8.pos = 0.5,0.6
+p9.pos = 0.0,0.6
+p10.pos = 0.0,0.8
+p11.pos = 1.5,0.8
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.2
+p2.pos = 0.1,0.0
+p3.pos = 0.6,0.0
+p4.pos = 0.6,0.2
+p5.pos = 0.1,0.2
+p6.pos = 0.1,0.4
+p7.pos = 0.6,0.4
+p8.pos = 0.6,0.6
+p9.pos = 0.1,0.6
+p10.pos = 0.1,0.8
+p11.pos = 1.6,0.8
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.2
+p2.pos = 0.2,0.0
+p3.pos = 0.7,0.0
+p4.pos = 0.7,0.2
+p5.pos = 0.2,0.2
+p6.pos = 0.2,0.4
+p7.pos = 0.7,0.4
+p8.pos = 0.7,0.6
+p9.pos = 0.2,0.6
+p10.pos = 0.2,0.8
+p11.pos = 1.7,0.8
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.2
+p2.pos = 0.3,0.0
+p3.pos = 0.8,0.0
+p4.pos = 0.8,0.2
+p5.pos = 0.3,0.2
+p6.pos = 0.3,0.4
+p7.pos = 0.8,0.4
+p8.pos = 0.8,0.6
+p9.pos = 0.3,0.6
+p10.pos = 0.3,0.8
+p11.pos = 1.8,0.8
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.2
+p2.pos = 0.4,0.0
+p3.pos = 0.9,0.0
+p4.pos = 0.9,0.2
+p5.pos = 0.4,0.2
+p6.pos = 0.4,0.4
+p7.pos = 0.9,0.4
+p8.pos = 0.9,0.6
+p9.pos = 0.4,0.6
+p10.pos = 0.4,0.8
+p11.pos = 1.9,0.8
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.2
+p2.pos = 0.5,0.0
+p3.pos = 1.0,0.0
+p4.pos = 1.0,0.2
+p5.pos = 0.5,0.2
+p6.pos = 0.5,0.4
+p7.pos = 1.0,0.4
+p8.pos = 1.0,0.6
+p9.pos = 0.5,0.6
+p10.pos = 0.5,0.8
+p11.pos = 2.0,0.8
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.2
+p2.pos = 0.6,0.0
+p3.pos = 1.1,0.0
+p4.pos = 1.1,0.2
+p5.pos = 0.6,0.2
+p6.pos = 0.6,0.4
+p7.pos = 1.1,0.4
+p8.pos = 1.1,0.6
+p9.pos = 0.6,0.6
+p10.pos = 0.6,0.8
+p11.pos = 2.1,0.8
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+;-------------------------------------------------------
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.1,-0.25
+p2.pos = -0.1,-0.05
+p3.pos = 0.4,-0.05
+p4.pos = 0.4,0.15
+p5.pos = -0.1,0.15
+p6.pos = -0.1,0.35
+p7.pos = 0.4,0.35
+p8.pos = 0.4,0.55
+p9.pos = -0.1,0.55
+p10.pos = -0.1,0.75
+p11.pos = 1.4,0.75
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.0,-0.25
+p2.pos = 0.0,-0.05
+p3.pos = 0.5,-0.05
+p4.pos = 0.5,0.15
+p5.pos = 0.0,0.15
+p6.pos = 0.0,0.35
+p7.pos = 0.5,0.35
+p8.pos = 0.5,0.55
+p9.pos = 0.0,0.55
+p10.pos = 0.0,0.75
+p11.pos = 1.5,0.75
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.25
+p2.pos = 0.1,-0.05
+p3.pos = 0.6,-0.05
+p4.pos = 0.6,0.15
+p5.pos = 0.1,0.15
+p6.pos = 0.1,0.35
+p7.pos = 0.6,0.35
+p8.pos = 0.6,0.55
+p9.pos = 0.1,0.55
+p10.pos = 0.1,0.75
+p11.pos = 1.6,0.75
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.25
+p2.pos = 0.2,-0.05
+p3.pos = 0.7,-0.05
+p4.pos = 0.7,0.15
+p5.pos = 0.2,0.15
+p6.pos = 0.2,0.35
+p7.pos = 0.7,0.35
+p8.pos = 0.7,0.55
+p9.pos = 0.2,0.55
+p10.pos = 0.2,0.75
+p11.pos = 1.7,0.75
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.25
+p2.pos = 0.3,-0.05
+p3.pos = 0.8,-0.05
+p4.pos = 0.8,0.15
+p5.pos = 0.3,0.15
+p6.pos = 0.3,0.35
+p7.pos = 0.8,0.35
+p8.pos = 0.8,0.55
+p9.pos = 0.3,0.55
+p10.pos = 0.3,0.75
+p11.pos = 1.8,0.75
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.25
+p2.pos = 0.4,-0.05
+p3.pos = 0.9,-0.05
+p4.pos = 0.9,0.15
+p5.pos = 0.4,0.15
+p6.pos = 0.4,0.35
+p7.pos = 0.9,0.35
+p8.pos = 0.9,0.55
+p9.pos = 0.4,0.55
+p10.pos = 0.4,0.75
+p11.pos = 1.9,0.75
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.25
+p2.pos = 0.5,-0.05
+p3.pos = 1.0,-0.05
+p4.pos = 1.0,0.15
+p5.pos = 0.5,0.15
+p6.pos = 0.5,0.35
+p7.pos = 1.0,0.35
+p8.pos = 1.0,0.55
+p9.pos = 0.5,0.55
+p10.pos = 0.5,0.75
+p11.pos = 2.0,0.75
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.25
+p2.pos = 0.6,-0.05
+p3.pos = 1.1,-0.05
+p4.pos = 1.1,0.15
+p5.pos = 0.6,0.15
+p6.pos = 0.6,0.35
+p7.pos = 1.1,0.35
+p8.pos = 1.1,0.55
+p9.pos = 0.6,0.55
+p10.pos = 0.6,0.75
+p11.pos = 2.1,0.75
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+;-------------------------------------------------------
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.1,-0.3
+p2.pos = -0.1,-0.1
+p3.pos = 0.4,-0.1
+p4.pos = 0.4,0.1
+p5.pos = -0.1,0.1
+p6.pos = -0.1,0.3
+p7.pos = 0.4,0.3
+p8.pos = 0.4,0.5
+p9.pos = -0.1,0.5
+p10.pos = -0.1,0.7
+p11.pos = 1.4,0.7
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.0,-0.3
+p2.pos = 0.0,-0.1
+p3.pos = 0.5,-0.1
+p4.pos = 0.5,0.1
+p5.pos = 0.0,0.1
+p6.pos = 0.0,0.3
+p7.pos = 0.5,0.3
+p8.pos = 0.5,0.5
+p9.pos = 0.0,0.5
+p10.pos = 0.0,0.7
+p11.pos = 1.5,0.7
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.3
+p2.pos = 0.1,-0.1
+p3.pos = 0.6,-0.1
+p4.pos = 0.6,0.1
+p5.pos = 0.1,0.1
+p6.pos = 0.1,0.3
+p7.pos = 0.6,0.3
+p8.pos = 0.6,0.5
+p9.pos = 0.1,0.5
+p10.pos = 0.1,0.7
+p11.pos = 1.6,0.7
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.3
+p2.pos = 0.2,-0.1
+p3.pos = 0.7,-0.1
+p4.pos = 0.7,0.1
+p5.pos = 0.2,0.1
+p6.pos = 0.2,0.3
+p7.pos = 0.7,0.3
+p8.pos = 0.7,0.5
+p9.pos = 0.2,0.5
+p10.pos = 0.2,0.7
+p11.pos = 1.7,0.7
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.3
+p2.pos = 0.3,-0.1
+p3.pos = 0.8,-0.1
+p4.pos = 0.8,0.1
+p5.pos = 0.3,0.1
+p6.pos = 0.3,0.3
+p7.pos = 0.8,0.3
+p8.pos = 0.8,0.5
+p9.pos = 0.3,0.5
+p10.pos = 0.3,0.7
+p11.pos = 1.8,0.7
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.3
+p2.pos = 0.4,-0.1
+p3.pos = 0.9,-0.1
+p4.pos = 0.9,0.1
+p5.pos = 0.4,0.1
+p6.pos = 0.4,0.3
+p7.pos = 0.9,0.3
+p8.pos = 0.9,0.5
+p9.pos = 0.4,0.5
+p10.pos = 0.4,0.7
+p11.pos = 1.9,0.7
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.3
+p2.pos = 0.5,-0.1
+p3.pos = 1.0,-0.1
+p4.pos = 1.0,0.1
+p5.pos = 0.5,0.1
+p6.pos = 0.5,0.3
+p7.pos = 1.0,0.3
+p8.pos = 1.0,0.5
+p9.pos = 0.5,0.5
+p10.pos = 0.5,0.7
+p11.pos = 2.0,0.7
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.3
+p2.pos = 0.6,-0.1
+p3.pos = 1.1,-0.1
+p4.pos = 1.1,0.1
+p5.pos = 0.6,0.1
+p6.pos = 0.6,0.3
+p7.pos = 1.1,0.3
+p8.pos = 1.1,0.5
+p9.pos = 0.6,0.5
+p10.pos = 0.6,0.7
+p11.pos = 2.1,0.7
+s1.time = 60
+s1.name = "enemy_mid_straight"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_laser_aimed"
+
+;-------------------------------------------------------
+
+[Section 2]
+
+[Enemy 1]
+time = 240
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.1
+p2.pos = 0.1,0.3
+p2.duration = 120
+p3.pos = 0.1,0.5
+p3.duration = 120
+p4.pos = 0.1,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.1
+p2.pos = 0.2,0.3
+p2.duration = 120
+p3.pos = 0.2,0.5
+p3.duration = 120
+p4.pos = 0.2,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.3
+p2.duration = 120
+p3.pos = 0.3,0.5
+p3.duration = 120
+p4.pos = 0.3,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.1
+p2.pos = 0.4,0.3
+p2.duration = 120
+p3.pos = 0.4,0.5
+p3.duration = 120
+p4.pos = 0.4,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.3
+p2.duration = 120
+p3.pos = 0.5,0.5
+p3.duration = 120
+p4.pos = 0.5,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.1
+p2.pos = 0.6,0.3
+p2.duration = 120
+p3.pos = 0.6,0.5
+p3.duration = 120
+p4.pos = 0.6,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.3
+p2.duration = 120
+p3.pos = 0.7,0.5
+p3.duration = 120
+p4.pos = 0.7,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.8,-0.1
+p2.pos = 0.8,0.3
+p2.duration = 120
+p3.pos = 0.8,0.5
+p3.duration = 120
+p4.pos = 0.8,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.9,-0.1
+p2.pos = 0.9,0.3
+p2.duration = 120
+p3.pos = 0.9,0.5
+p3.duration = 120
+p4.pos = 0.9,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+;---------------------
+
+[Enemy 1]
+time = 240
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.1
+p2.pos = 0.1,0.3
+p2.duration = 120
+p3.pos = 0.1,0.5
+p3.duration = 120
+p4.pos = 0.1,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.1
+p2.pos = 0.2,0.3
+p2.duration = 120
+p3.pos = 0.2,0.5
+p3.duration = 120
+p4.pos = 0.2,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.3
+p2.duration = 120
+p3.pos = 0.3,0.5
+p3.duration = 120
+p4.pos = 0.3,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.1
+p2.pos = 0.4,0.3
+p2.duration = 120
+p3.pos = 0.4,0.5
+p3.duration = 120
+p4.pos = 0.4,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.3
+p2.duration = 120
+p3.pos = 0.5,0.5
+p3.duration = 120
+p4.pos = 0.5,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.1
+p2.pos = 0.6,0.3
+p2.duration = 120
+p3.pos = 0.6,0.5
+p3.duration = 120
+p4.pos = 0.6,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.3
+p2.duration = 120
+p3.pos = 0.7,0.5
+p3.duration = 120
+p4.pos = 0.7,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.8,-0.1
+p2.pos = 0.8,0.3
+p2.duration = 120
+p3.pos = 0.8,0.5
+p3.duration = 120
+p4.pos = 0.8,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.9,-0.1
+p2.pos = 0.9,0.3
+p2.duration = 120
+p3.pos = 0.9,0.5
+p3.duration = 120
+p4.pos = 0.9,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+;---------------------
+
+[Enemy 1]
+time = 240
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.1
+p2.pos = 0.1,0.3
+p2.duration = 120
+p3.pos = 0.1,0.5
+p3.duration = 120
+p4.pos = 0.1,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.1
+p2.pos = 0.2,0.3
+p2.duration = 120
+p3.pos = 0.2,0.5
+p3.duration = 120
+p4.pos = 0.2,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.3
+p2.duration = 120
+p3.pos = 0.3,0.5
+p3.duration = 120
+p4.pos = 0.3,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.1
+p2.pos = 0.4,0.3
+p2.duration = 120
+p3.pos = 0.4,0.5
+p3.duration = 120
+p4.pos = 0.4,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.3
+p2.duration = 120
+p3.pos = 0.5,0.5
+p3.duration = 120
+p4.pos = 0.5,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.1
+p2.pos = 0.6,0.3
+p2.duration = 120
+p3.pos = 0.6,0.5
+p3.duration = 120
+p4.pos = 0.6,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.3
+p2.duration = 120
+p3.pos = 0.7,0.5
+p3.duration = 120
+p4.pos = 0.7,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.8,-0.1
+p2.pos = 0.8,0.3
+p2.duration = 120
+p3.pos = 0.8,0.5
+p3.duration = 120
+p4.pos = 0.8,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.9,-0.1
+p2.pos = 0.9,0.3
+p2.duration = 120
+p3.pos = 0.9,0.5
+p3.duration = 120
+p4.pos = 0.9,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+;---------------------
+
+[Enemy 1]
+time = 240
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.1
+p2.pos = 0.1,0.3
+p2.duration = 120
+p3.pos = 0.1,0.5
+p3.duration = 120
+p4.pos = 0.1,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.1
+p2.pos = 0.2,0.3
+p2.duration = 120
+p3.pos = 0.2,0.5
+p3.duration = 120
+p4.pos = 0.2,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.3
+p2.duration = 120
+p3.pos = 0.3,0.5
+p3.duration = 120
+p4.pos = 0.3,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.1
+p2.pos = 0.4,0.3
+p2.duration = 120
+p3.pos = 0.4,0.5
+p3.duration = 120
+p4.pos = 0.4,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.3
+p2.duration = 120
+p3.pos = 0.5,0.5
+p3.duration = 120
+p4.pos = 0.5,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.1
+p2.pos = 0.6,0.3
+p2.duration = 120
+p3.pos = 0.6,0.5
+p3.duration = 120
+p4.pos = 0.6,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.3
+p2.duration = 120
+p3.pos = 0.7,0.5
+p3.duration = 120
+p4.pos = 0.7,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.8,-0.1
+p2.pos = 0.8,0.3
+p2.duration = 120
+p3.pos = 0.8,0.5
+p3.duration = 120
+p4.pos = 0.8,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.9,-0.1
+p2.pos = 0.9,0.3
+p2.duration = 120
+p3.pos = 0.9,0.5
+p3.duration = 120
+p4.pos = 0.9,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+;---------------------
+
+[Enemy 1]
+time = 240
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.1
+p2.pos = 0.1,0.3
+p2.duration = 120
+p3.pos = 0.1,0.5
+p3.duration = 120
+p4.pos = 0.1,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.1
+p2.pos = 0.2,0.3
+p2.duration = 120
+p3.pos = 0.2,0.5
+p3.duration = 120
+p4.pos = 0.2,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.3
+p2.duration = 120
+p3.pos = 0.3,0.5
+p3.duration = 120
+p4.pos = 0.3,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.1
+p2.pos = 0.4,0.3
+p2.duration = 120
+p3.pos = 0.4,0.5
+p3.duration = 120
+p4.pos = 0.4,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.3
+p2.duration = 120
+p3.pos = 0.5,0.5
+p3.duration = 120
+p4.pos = 0.5,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.1
+p2.pos = 0.6,0.3
+p2.duration = 120
+p3.pos = 0.6,0.5
+p3.duration = 120
+p4.pos = 0.6,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.3
+p2.duration = 120
+p3.pos = 0.7,0.5
+p3.duration = 120
+p4.pos = 0.7,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.8,-0.1
+p2.pos = 0.8,0.3
+p2.duration = 120
+p3.pos = 0.8,0.5
+p3.duration = 120
+p4.pos = 0.8,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.9,-0.1
+p2.pos = 0.9,0.3
+p2.duration = 120
+p3.pos = 0.9,0.5
+p3.duration = 120
+p4.pos = 0.9,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+;---------------------
+
+[Enemy 1]
+time = 240
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.1
+p2.pos = 0.1,0.3
+p2.duration = 120
+p3.pos = 0.1,0.5
+p3.duration = 120
+p4.pos = 0.1,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.1
+p2.pos = 0.2,0.3
+p2.duration = 120
+p3.pos = 0.2,0.5
+p3.duration = 120
+p4.pos = 0.2,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.3
+p2.duration = 120
+p3.pos = 0.3,0.5
+p3.duration = 120
+p4.pos = 0.3,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.1
+p2.pos = 0.4,0.3
+p2.duration = 120
+p3.pos = 0.4,0.5
+p3.duration = 120
+p4.pos = 0.4,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.3
+p2.duration = 120
+p3.pos = 0.5,0.5
+p3.duration = 120
+p4.pos = 0.5,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.1
+p2.pos = 0.6,0.3
+p2.duration = 120
+p3.pos = 0.6,0.5
+p3.duration = 120
+p4.pos = 0.6,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.3
+p2.duration = 120
+p3.pos = 0.7,0.5
+p3.duration = 120
+p4.pos = 0.7,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.8,-0.1
+p2.pos = 0.8,0.3
+p2.duration = 120
+p3.pos = 0.8,0.5
+p3.duration = 120
+p4.pos = 0.8,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.9,-0.1
+p2.pos = 0.9,0.3
+p2.duration = 120
+p3.pos = 0.9,0.5
+p3.duration = 120
+p4.pos = 0.9,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+;---------------------
+
+[Enemy 1]
+time = 240
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.1
+p2.pos = 0.1,0.3
+p2.duration = 120
+p3.pos = 0.1,0.5
+p3.duration = 120
+p4.pos = 0.1,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.1
+p2.pos = 0.2,0.3
+p2.duration = 120
+p3.pos = 0.2,0.5
+p3.duration = 120
+p4.pos = 0.2,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.3
+p2.duration = 120
+p3.pos = 0.3,0.5
+p3.duration = 120
+p4.pos = 0.3,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.1
+p2.pos = 0.4,0.3
+p2.duration = 120
+p3.pos = 0.4,0.5
+p3.duration = 120
+p4.pos = 0.4,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.3
+p2.duration = 120
+p3.pos = 0.5,0.5
+p3.duration = 120
+p4.pos = 0.5,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.1
+p2.pos = 0.6,0.3
+p2.duration = 120
+p3.pos = 0.6,0.5
+p3.duration = 120
+p4.pos = 0.6,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.3
+p2.duration = 120
+p3.pos = 0.7,0.5
+p3.duration = 120
+p4.pos = 0.7,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.8,-0.1
+p2.pos = 0.8,0.3
+p2.duration = 120
+p3.pos = 0.8,0.5
+p3.duration = 120
+p4.pos = 0.8,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.9,-0.1
+p2.pos = 0.9,0.3
+p2.duration = 120
+p3.pos = 0.9,0.5
+p3.duration = 120
+p4.pos = 0.9,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+;---------------------
+
+[Enemy 1]
+time = 240
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.1
+p2.pos = 0.1,0.3
+p2.duration = 120
+p3.pos = 0.1,0.5
+p3.duration = 120
+p4.pos = 0.1,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.1
+p2.pos = 0.2,0.3
+p2.duration = 120
+p3.pos = 0.2,0.5
+p3.duration = 120
+p4.pos = 0.2,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.3
+p2.duration = 120
+p3.pos = 0.3,0.5
+p3.duration = 120
+p4.pos = 0.3,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.1
+p2.pos = 0.4,0.3
+p2.duration = 120
+p3.pos = 0.4,0.5
+p3.duration = 120
+p4.pos = 0.4,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.3
+p2.duration = 120
+p3.pos = 0.5,0.5
+p3.duration = 120
+p4.pos = 0.5,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.1
+p2.pos = 0.6,0.3
+p2.duration = 120
+p3.pos = 0.6,0.5
+p3.duration = 120
+p4.pos = 0.6,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.3
+p2.duration = 120
+p3.pos = 0.7,0.5
+p3.duration = 120
+p4.pos = 0.7,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.8,-0.1
+p2.pos = 0.8,0.3
+p2.duration = 120
+p3.pos = 0.8,0.5
+p3.duration = 120
+p4.pos = 0.8,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.9,-0.1
+p2.pos = 0.9,0.3
+p2.duration = 120
+p3.pos = 0.9,0.5
+p3.duration = 120
+p4.pos = 0.9,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+;---------------------
+
+[Enemy 1]
+time = 240
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.1
+p2.pos = 0.1,0.3
+p2.duration = 120
+p3.pos = 0.1,0.5
+p3.duration = 120
+p4.pos = 0.1,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.1
+p2.pos = 0.2,0.3
+p2.duration = 120
+p3.pos = 0.2,0.5
+p3.duration = 120
+p4.pos = 0.2,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.3
+p2.duration = 120
+p3.pos = 0.3,0.5
+p3.duration = 120
+p4.pos = 0.3,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.1
+p2.pos = 0.4,0.3
+p2.duration = 120
+p3.pos = 0.4,0.5
+p3.duration = 120
+p4.pos = 0.4,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.3
+p2.duration = 120
+p3.pos = 0.5,0.5
+p3.duration = 120
+p4.pos = 0.5,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.1
+p2.pos = 0.6,0.3
+p2.duration = 120
+p3.pos = 0.6,0.5
+p3.duration = 120
+p4.pos = 0.6,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.7,-0.1
+p2.pos = 0.7,0.3
+p2.duration = 120
+p3.pos = 0.7,0.5
+p3.duration = 120
+p4.pos = 0.7,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.8,-0.1
+p2.pos = 0.8,0.3
+p2.duration = 120
+p3.pos = 0.8,0.5
+p3.duration = 120
+p4.pos = 0.8,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.9,-0.1
+p2.pos = 0.9,0.3
+p2.duration = 120
+p3.pos = 0.9,0.5
+p3.duration = 120
+p4.pos = 0.9,0.7
+p4.duration = 120
+p5.pos = 1.2,0.7
+s1.time = 60
+s1.name = "enemy_slim_random"
+s1.frequency = 1, 90
+power = 5
+life = 25
+
+[Section 2]
+
+[Boss]
+name = "Alternative"
+time = 20
+
+[Section 3]
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = -0.05,0.01
+p2.pos = 0.0,0.02
+p3.pos = 0.05,0.03
+p4.pos = 0.1,0.05
+p5.pos = 1.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+[Enemy 1]
+time = 10
+name = "enemy1"
+speed = 1
+radius = 5
+p1.pos = 1.15,0.01
+p2.pos = 1.0,0.02
+p3.pos = 0.95,0.03
+p4.pos = 0.9,0.05
+p5.pos = -0.1,0.12
+s1.time = 60
+s1.name = "enemy_pink_lower_half_slow"
+s1.frequency = 1, 30
+s2.time = 99999
+power = 1
+death.shot = "enemy_laser_straight"
+
+;---------------------------------
+
+[Section 3]
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.25,-.1
+p2.pos = 0.25,0.0
+p3.pos = 0.25,0.1
+p4.pos = 0.25,0.2
+p5.pos = 0.25,0.3
+p6.pos = 0.25,0.4
+p7.pos = 0.25,0.5
+p8.pos = 0.25,0.6
+p9.pos = 1.25,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.75,-.1
+p2.pos = 0.75,0.0
+p3.pos = 0.75,0.1
+p4.pos = 0.75,0.2
+p5.pos = 0.75,0.3
+p6.pos = 0.75,0.4
+p7.pos = 0.75,0.5
+p8.pos = 0.75,0.6
+p9.pos = 1.75,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.3,-.1
+p2.pos = 0.3,0.0
+p3.pos = 0.3,0.1
+p4.pos = 0.3,0.2
+p5.pos = 0.3,0.3
+p6.pos = 0.3,0.4
+p7.pos = 0.3,0.5
+p8.pos = 0.3,0.6
+p9.pos = 1.3,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.7,-.1
+p2.pos = 0.7,0.0
+p3.pos = 0.7,0.1
+p4.pos = 0.7,0.2
+p5.pos = 0.7,0.3
+p6.pos = 0.7,0.4
+p7.pos = 0.7,0.5
+p8.pos = 0.7,0.6
+p9.pos = 1.7,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.5,-.1
+p2.pos = 0.5,0.0
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.2
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.4
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.6
+p9.pos = 1.5,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = -0.1,0.2
+p2.pos = 0.0,0.2
+p3.pos = 0.1,0.2
+p4.pos = 0.2,0.2
+p5.pos = 0.3,0.2
+p6.pos = 0.4,0.2
+p7.pos = 0.5,0.2
+p8.pos = 0.6,0.2
+p9.pos = 0.7,0.2
+p10.pos = 0.8,0.2
+p11.pos = 0.9,0.2
+p12.pos = 1.0,0.2
+p13.pos = 1.1,0.2
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 1.1,0.2
+p2.pos = 1.0,0.2
+p3.pos = 0.9,0.2
+p4.pos = 0.8,0.2
+p5.pos = 0.7,0.2
+p6.pos = 0.6,0.2
+p7.pos = 0.5,0.2
+p8.pos = 0.4,0.2
+p9.pos = 0.3,0.2
+p10.pos = 0.2,0.2
+p11.pos = 0.1,0.2
+p12.pos = 0.0,0.2
+p13.pos = -0.1,0.2
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.25,-.1
+p2.pos = 0.25,0.0
+p3.pos = 0.25,0.1
+p4.pos = 0.25,0.2
+p5.pos = 0.25,0.3
+p6.pos = 0.25,0.4
+p7.pos = 0.25,0.5
+p8.pos = 0.25,0.6
+p9.pos = 1.25,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.75,-.1
+p2.pos = 0.75,0.0
+p3.pos = 0.75,0.1
+p4.pos = 0.75,0.2
+p5.pos = 0.75,0.3
+p6.pos = 0.75,0.4
+p7.pos = 0.75,0.5
+p8.pos = 0.75,0.6
+p9.pos = 1.75,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.3,-.1
+p2.pos = 0.3,0.0
+p3.pos = 0.3,0.1
+p4.pos = 0.3,0.2
+p5.pos = 0.3,0.3
+p6.pos = 0.3,0.4
+p7.pos = 0.3,0.5
+p8.pos = 0.3,0.6
+p9.pos = 1.3,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.7,-.1
+p2.pos = 0.7,0.0
+p3.pos = 0.7,0.1
+p4.pos = 0.7,0.2
+p5.pos = 0.7,0.3
+p6.pos = 0.7,0.4
+p7.pos = 0.7,0.5
+p8.pos = 0.7,0.6
+p9.pos = 1.7,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 0.5,-.1
+p2.pos = 0.5,0.0
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.2
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.4
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.6
+p9.pos = 1.5,0.6
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+
+
+[Enemy 1]
+time = 120
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = -0.1,0.2
+p2.pos = 0.0,0.2
+p3.pos = 0.1,0.2
+p4.pos = 0.2,0.2
+p5.pos = 0.3,0.2
+p6.pos = 0.4,0.2
+p7.pos = 0.5,0.2
+p8.pos = 0.6,0.2
+p9.pos = 0.7,0.2
+p10.pos = 0.8,0.2
+p11.pos = 0.9,0.2
+p12.pos = 1.0,0.2
+p13.pos = 1.1,0.2
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.5
+radius = 11
+p1.pos = 1.1,0.2
+p2.pos = 1.0,0.2
+p3.pos = 0.9,0.2
+p4.pos = 0.8,0.2
+p5.pos = 0.7,0.2
+p6.pos = 0.6,0.2
+p7.pos = 0.5,0.2
+p8.pos = 0.4,0.2
+p9.pos = 0.3,0.2
+p10.pos = 0.2,0.2
+p11.pos = 0.1,0.2
+p12.pos = 0.0,0.2
+p13.pos = -0.1,0.2
+s1.time = 60
+s1.name = "enemy_circle_mid"
+s1.frequency = 60
+s2.time = 99999
+power = 20
+score = 10
+life = 150
+death.shot = "enemy_five_aimed_slow"
+
+
+[Section 2]
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.1,-0.1
+p2.pos = -0.1,0.1
+p3.pos = 0.4,0.1
+p4.pos = 0.4,0.3
+p5.pos = -0.1,0.3
+p6.pos = -0.1,0.5
+p7.pos = 0.4,0.5
+p8.pos = 0.4,0.7
+p9.pos = -0.1,0.7
+p10.pos = -0.1,0.9
+p11.pos = 1.4,0.9
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.0,-0.1
+p2.pos = 0.0,0.1
+p3.pos = 0.5,0.1
+p4.pos = 0.5,0.3
+p5.pos = 0.0,0.3
+p6.pos = 0.0,0.5
+p7.pos = 0.5,0.5
+p8.pos = 0.5,0.7
+p9.pos = 0.0,0.7
+p10.pos = 0.0,0.9
+p11.pos = 1.5,0.9
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.1
+p2.pos = 0.1,0.1
+p3.pos = 0.6,0.1
+p4.pos = 0.6,0.3
+p5.pos = 0.1,0.3
+p6.pos = 0.1,0.5
+p7.pos = 0.6,0.5
+p8.pos = 0.6,0.7
+p9.pos = 0.1,0.7
+p10.pos = 0.1,0.9
+p11.pos = 1.6,0.9
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.1
+p2.pos = 0.2,0.1
+p3.pos = 0.7,0.1
+p4.pos = 0.7,0.3
+p5.pos = 0.2,0.3
+p6.pos = 0.2,0.5
+p7.pos = 0.7,0.5
+p8.pos = 0.7,0.7
+p9.pos = 0.2,0.7
+p10.pos = 0.2,0.9
+p11.pos = 1.7,0.9
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.1
+p2.pos = 0.3,0.1
+p3.pos = 0.8,0.1
+p4.pos = 0.8,0.3
+p5.pos = 0.3,0.3
+p6.pos = 0.3,0.5
+p7.pos = 0.8,0.5
+p8.pos = 0.8,0.7
+p9.pos = 0.3,0.7
+p10.pos = 0.3,0.9
+p11.pos = 1.8,0.9
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.1
+p2.pos = 0.4,0.1
+p3.pos = 0.9,0.1
+p4.pos = 0.9,0.3
+p5.pos = 0.4,0.3
+p6.pos = 0.4,0.5
+p7.pos = 0.9,0.5
+p8.pos = 0.9,0.7
+p9.pos = 0.4,0.7
+p10.pos = 0.4,0.9
+p11.pos = 1.9,0.9
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.1
+p3.pos = 1.0,0.1
+p4.pos = 1.0,0.3
+p5.pos = 0.5,0.3
+p6.pos = 0.5,0.5
+p7.pos = 1.0,0.5
+p8.pos = 1.0,0.7
+p9.pos = 0.5,0.7
+p10.pos = 0.5,0.9
+p11.pos = 2.0,0.9
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.1
+p2.pos = 0.6,0.1
+p3.pos = 1.1,0.1
+p4.pos = 1.1,0.3
+p5.pos = 0.6,0.3
+p6.pos = 0.6,0.5
+p7.pos = 1.1,0.5
+p8.pos = 1.1,0.7
+p9.pos = 0.6,0.7
+p10.pos = 0.6,0.9
+p11.pos = 2.1,0.9
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+;-------------------------------------------------------
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.1,-0.15
+p2.pos = -0.1,0.05
+p3.pos = 0.4,0.05
+p4.pos = 0.4,0.25
+p5.pos = -0.1,0.25
+p6.pos = -0.1,0.45
+p7.pos = 0.4,0.45
+p8.pos = 0.4,0.65
+p9.pos = -0.1,0.65
+p10.pos = -0.1,0.85
+p11.pos = 1.4,0.85
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.0,-0.15
+p2.pos = 0.0,0.05
+p3.pos = 0.5,0.05
+p4.pos = 0.5,0.25
+p5.pos = 0.0,0.25
+p6.pos = 0.0,0.45
+p7.pos = 0.5,0.45
+p8.pos = 0.5,0.65
+p9.pos = 0.0,0.65
+p10.pos = 0.0,0.85
+p11.pos = 1.5,0.85
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.15
+p2.pos = 0.1,0.05
+p3.pos = 0.6,0.05
+p4.pos = 0.6,0.25
+p5.pos = 0.1,0.25
+p6.pos = 0.1,0.45
+p7.pos = 0.6,0.45
+p8.pos = 0.6,0.65
+p9.pos = 0.1,0.65
+p10.pos = 0.1,0.85
+p11.pos = 1.6,0.85
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.15
+p2.pos = 0.2,0.05
+p3.pos = 0.7,0.05
+p4.pos = 0.7,0.25
+p5.pos = 0.2,0.25
+p6.pos = 0.2,0.45
+p7.pos = 0.7,0.45
+p8.pos = 0.7,0.65
+p9.pos = 0.2,0.65
+p10.pos = 0.2,0.85
+p11.pos = 1.7,0.85
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.15
+p2.pos = 0.3,0.05
+p3.pos = 0.8,0.05
+p4.pos = 0.8,0.25
+p5.pos = 0.3,0.25
+p6.pos = 0.3,0.45
+p7.pos = 0.8,0.45
+p8.pos = 0.8,0.65
+p9.pos = 0.3,0.65
+p10.pos = 0.3,0.85
+p11.pos = 1.8,0.85
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.15
+p2.pos = 0.4,0.05
+p3.pos = 0.9,0.05
+p4.pos = 0.9,0.25
+p5.pos = 0.4,0.25
+p6.pos = 0.4,0.45
+p7.pos = 0.9,0.45
+p8.pos = 0.9,0.65
+p9.pos = 0.4,0.65
+p10.pos = 0.4,0.85
+p11.pos = 1.9,0.85
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.15
+p2.pos = 0.5,0.05
+p3.pos = 1.0,0.05
+p4.pos = 1.0,0.25
+p5.pos = 0.5,0.25
+p6.pos = 0.5,0.45
+p7.pos = 1.0,0.45
+p8.pos = 1.0,0.65
+p9.pos = 0.5,0.65
+p10.pos = 0.5,0.85
+p11.pos = 2.0,0.85
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.15
+p2.pos = 0.6,0.05
+p3.pos = 1.1,0.05
+p4.pos = 1.1,0.25
+p5.pos = 0.6,0.25
+p6.pos = 0.6,0.45
+p7.pos = 1.1,0.45
+p8.pos = 1.1,0.65
+p9.pos = 0.6,0.65
+p10.pos = 0.6,0.85
+p11.pos = 2.1,0.85
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+;-------------------------------------------------------
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.1,-0.2
+p2.pos = -0.1,0.0
+p3.pos = 0.4,0.0
+p4.pos = 0.4,0.2
+p5.pos = -0.1,0.2
+p6.pos = -0.1,0.4
+p7.pos = 0.4,0.4
+p8.pos = 0.4,0.6
+p9.pos = -0.1,0.6
+p10.pos = -0.1,0.8
+p11.pos = 1.4,0.8
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.0,-0.2
+p2.pos = 0.0,0.0
+p3.pos = 0.5,0.0
+p4.pos = 0.5,0.2
+p5.pos = 0.0,0.2
+p6.pos = 0.0,0.4
+p7.pos = 0.5,0.4
+p8.pos = 0.5,0.6
+p9.pos = 0.0,0.6
+p10.pos = 0.0,0.8
+p11.pos = 1.5,0.8
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.2
+p2.pos = 0.1,0.0
+p3.pos = 0.6,0.0
+p4.pos = 0.6,0.2
+p5.pos = 0.1,0.2
+p6.pos = 0.1,0.4
+p7.pos = 0.6,0.4
+p8.pos = 0.6,0.6
+p9.pos = 0.1,0.6
+p10.pos = 0.1,0.8
+p11.pos = 1.6,0.8
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.2
+p2.pos = 0.2,0.0
+p3.pos = 0.7,0.0
+p4.pos = 0.7,0.2
+p5.pos = 0.2,0.2
+p6.pos = 0.2,0.4
+p7.pos = 0.7,0.4
+p8.pos = 0.7,0.6
+p9.pos = 0.2,0.6
+p10.pos = 0.2,0.8
+p11.pos = 1.7,0.8
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.2
+p2.pos = 0.3,0.0
+p3.pos = 0.8,0.0
+p4.pos = 0.8,0.2
+p5.pos = 0.3,0.2
+p6.pos = 0.3,0.4
+p7.pos = 0.8,0.4
+p8.pos = 0.8,0.6
+p9.pos = 0.3,0.6
+p10.pos = 0.3,0.8
+p11.pos = 1.8,0.8
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.2
+p2.pos = 0.4,0.0
+p3.pos = 0.9,0.0
+p4.pos = 0.9,0.2
+p5.pos = 0.4,0.2
+p6.pos = 0.4,0.4
+p7.pos = 0.9,0.4
+p8.pos = 0.9,0.6
+p9.pos = 0.4,0.6
+p10.pos = 0.4,0.8
+p11.pos = 1.9,0.8
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.2
+p2.pos = 0.5,0.0
+p3.pos = 1.0,0.0
+p4.pos = 1.0,0.2
+p5.pos = 0.5,0.2
+p6.pos = 0.5,0.4
+p7.pos = 1.0,0.4
+p8.pos = 1.0,0.6
+p9.pos = 0.5,0.6
+p10.pos = 0.5,0.8
+p11.pos = 2.0,0.8
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.2
+p2.pos = 0.6,0.0
+p3.pos = 1.1,0.0
+p4.pos = 1.1,0.2
+p5.pos = 0.6,0.2
+p6.pos = 0.6,0.4
+p7.pos = 1.1,0.4
+p8.pos = 1.1,0.6
+p9.pos = 0.6,0.6
+p10.pos = 0.6,0.8
+p11.pos = 2.1,0.8
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+;-------------------------------------------------------
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.1,-0.25
+p2.pos = -0.1,-0.05
+p3.pos = 0.4,-0.05
+p4.pos = 0.4,0.15
+p5.pos = -0.1,0.15
+p6.pos = -0.1,0.35
+p7.pos = 0.4,0.35
+p8.pos = 0.4,0.55
+p9.pos = -0.1,0.55
+p10.pos = -0.1,0.75
+p11.pos = 1.4,0.75
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.0,-0.25
+p2.pos = 0.0,-0.05
+p3.pos = 0.5,-0.05
+p4.pos = 0.5,0.15
+p5.pos = 0.0,0.15
+p6.pos = 0.0,0.35
+p7.pos = 0.5,0.35
+p8.pos = 0.5,0.55
+p9.pos = 0.0,0.55
+p10.pos = 0.0,0.75
+p11.pos = 1.5,0.75
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.25
+p2.pos = 0.1,-0.05
+p3.pos = 0.6,-0.05
+p4.pos = 0.6,0.15
+p5.pos = 0.1,0.15
+p6.pos = 0.1,0.35
+p7.pos = 0.6,0.35
+p8.pos = 0.6,0.55
+p9.pos = 0.1,0.55
+p10.pos = 0.1,0.75
+p11.pos = 1.6,0.75
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.25
+p2.pos = 0.2,-0.05
+p3.pos = 0.7,-0.05
+p4.pos = 0.7,0.15
+p5.pos = 0.2,0.15
+p6.pos = 0.2,0.35
+p7.pos = 0.7,0.35
+p8.pos = 0.7,0.55
+p9.pos = 0.2,0.55
+p10.pos = 0.2,0.75
+p11.pos = 1.7,0.75
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.25
+p2.pos = 0.3,-0.05
+p3.pos = 0.8,-0.05
+p4.pos = 0.8,0.15
+p5.pos = 0.3,0.15
+p6.pos = 0.3,0.35
+p7.pos = 0.8,0.35
+p8.pos = 0.8,0.55
+p9.pos = 0.3,0.55
+p10.pos = 0.3,0.75
+p11.pos = 1.8,0.75
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.25
+p2.pos = 0.4,-0.05
+p3.pos = 0.9,-0.05
+p4.pos = 0.9,0.15
+p5.pos = 0.4,0.15
+p6.pos = 0.4,0.35
+p7.pos = 0.9,0.35
+p8.pos = 0.9,0.55
+p9.pos = 0.4,0.55
+p10.pos = 0.4,0.75
+p11.pos = 1.9,0.75
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.25
+p2.pos = 0.5,-0.05
+p3.pos = 1.0,-0.05
+p4.pos = 1.0,0.15
+p5.pos = 0.5,0.15
+p6.pos = 0.5,0.35
+p7.pos = 1.0,0.35
+p8.pos = 1.0,0.55
+p9.pos = 0.5,0.55
+p10.pos = 0.5,0.75
+p11.pos = 2.0,0.75
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.25
+p2.pos = 0.6,-0.05
+p3.pos = 1.1,-0.05
+p4.pos = 1.1,0.15
+p5.pos = 0.6,0.15
+p6.pos = 0.6,0.35
+p7.pos = 1.1,0.35
+p8.pos = 1.1,0.55
+p9.pos = 0.6,0.55
+p10.pos = 0.6,0.75
+p11.pos = 2.1,0.75
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+;-------------------------------------------------------
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = -0.1,-0.3
+p2.pos = -0.1,-0.1
+p3.pos = 0.4,-0.1
+p4.pos = 0.4,0.1
+p5.pos = -0.1,0.1
+p6.pos = -0.1,0.3
+p7.pos = 0.4,0.3
+p8.pos = 0.4,0.5
+p9.pos = -0.1,0.5
+p10.pos = -0.1,0.7
+p11.pos = 1.4,0.7
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.0,-0.3
+p2.pos = 0.0,-0.1
+p3.pos = 0.5,-0.1
+p4.pos = 0.5,0.1
+p5.pos = 0.0,0.1
+p6.pos = 0.0,0.3
+p7.pos = 0.5,0.3
+p8.pos = 0.5,0.5
+p9.pos = 0.0,0.5
+p10.pos = 0.0,0.7
+p11.pos = 1.5,0.7
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.1,-0.3
+p2.pos = 0.1,-0.1
+p3.pos = 0.6,-0.1
+p4.pos = 0.6,0.1
+p5.pos = 0.1,0.1
+p6.pos = 0.1,0.3
+p7.pos = 0.6,0.3
+p8.pos = 0.6,0.5
+p9.pos = 0.1,0.5
+p10.pos = 0.1,0.7
+p11.pos = 1.6,0.7
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.2,-0.3
+p2.pos = 0.2,-0.1
+p3.pos = 0.7,-0.1
+p4.pos = 0.7,0.1
+p5.pos = 0.2,0.1
+p6.pos = 0.2,0.3
+p7.pos = 0.7,0.3
+p8.pos = 0.7,0.5
+p9.pos = 0.2,0.5
+p10.pos = 0.2,0.7
+p11.pos = 1.7,0.7
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.3,-0.3
+p2.pos = 0.3,-0.1
+p3.pos = 0.8,-0.1
+p4.pos = 0.8,0.1
+p5.pos = 0.3,0.1
+p6.pos = 0.3,0.3
+p7.pos = 0.8,0.3
+p8.pos = 0.8,0.5
+p9.pos = 0.3,0.5
+p10.pos = 0.3,0.7
+p11.pos = 1.8,0.7
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.4,-0.3
+p2.pos = 0.4,-0.1
+p3.pos = 0.9,-0.1
+p4.pos = 0.9,0.1
+p5.pos = 0.4,0.1
+p6.pos = 0.4,0.3
+p7.pos = 0.9,0.3
+p8.pos = 0.9,0.5
+p9.pos = 0.4,0.5
+p10.pos = 0.4,0.7
+p11.pos = 1.9,0.7
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy1"
+speed = 0.6
+radius = 5
+p1.pos = 0.5,-0.3
+p2.pos = 0.5,-0.1
+p3.pos = 1.0,-0.1
+p4.pos = 1.0,0.1
+p5.pos = 0.5,0.1
+p6.pos = 0.5,0.3
+p7.pos = 1.0,0.3
+p8.pos = 1.0,0.5
+p9.pos = 0.5,0.5
+p10.pos = 0.5,0.7
+p11.pos = 2.0,0.7
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+power = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+[Enemy 1]
+time = 0
+name = "enemy2"
+speed = 0.6
+radius = 5
+p1.pos = 0.6,-0.3
+p2.pos = 0.6,-0.1
+p3.pos = 1.1,-0.1
+p4.pos = 1.1,0.1
+p5.pos = 0.6,0.1
+p6.pos = 0.6,0.3
+p7.pos = 1.1,0.3
+p8.pos = 1.1,0.5
+p9.pos = 0.6,0.5
+p10.pos = 0.6,0.7
+p11.pos = 2.1,0.7
+s1.time = 60
+s1.name = "enemy_mid_random"
+s1.frequency = 120, 180
+score = 5
+life = 25
+death.shot = "enemy_slim_random"
+
+;-------------------------------------------------------
+
+
+[Section two lines]
+
+[Enemy 1]
+time = 10
+name = "enemyBig"
+speed = 0.2
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.2
+p2.duration = 120
+p3.pos = 0.5,-0.1
+s1.time = 120
+s1.name = "enemy_final_4"
+s1.frequency = 1
+s2.time = 1
+power = 100
+life = 700
+
+[Section two lines]
+
+[Enemy 1]
+time = 10
+name = "enemyBig"
+speed = 0.2
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.2
+p2.duration = 120
+p3.pos = 0.5,-0.1
+s1.time = 120
+s1.name = "enemy_final_5"
+s1.frequency = 1
+s2.time = 1
+power = 100
+life = 700
+
+[Section two lines]
+
+[Enemy 1]
+time = 10
+name = "enemyBig"
+speed = 0.2
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.2
+p2.duration = 120
+p3.pos = 0.5,-0.1
+s1.time = 120
+s1.name = "enemy_final_6"
+s1.frequency = 1
+s2.time = 1
+power = 100
+life = 700
+
+
+[Section 2]
+
+[Boss]
+name = "Moot"
+time = 20

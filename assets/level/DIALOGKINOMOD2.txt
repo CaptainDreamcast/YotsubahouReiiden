@@ -1,0 +1,44 @@
+[Speaker kinomod]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker Australian moot]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker fission]
+
+[Speaker Australian Mom]
+
+[DialogPre]
+start = normal,gone
+kinomod: I saw a midboss, but does that even count as a villain?
+intro = 1
+Australian moot[normal]: ...
+kinomod: ...
+Australian moot: ...
+kinomod: ...
+kinomod: MOOT?!
+Australian moot: (IS HE AN IDIOT?!)
+Australian moot: Ayy, it's mey myewt, you [THE(!) C word].
+kinomod: !
+kinomod: Y- you said it! The forbidden word! 
+kinomod: That is it, I am telling your mom!
+Australian moot: Wh- What?
+kinomod: *dial tones*
+Australian Mom: Helloy?
+kinomod: Ms. Poole, I would like to inform you that your son said THE(!) C word.
+Australian moot: DOYN'T LISTEN TO HIM, MUM! HE'S LOYIN!
+Australian moot: I con't belayve you tattled on me mum!
+kinomod: Sorry moot, but my responsibilities as a pillar of the community come before you!
+kinomod: I WILL TEACH YOU MANNERS, EVEN IF IT KILLS YOU!
+Australian moot: EEK!
+
+[DialogPost]
+start = normal,gone
+kinomod: There we go, now Mama moot can be at ease.
+Australian Mom: Me?
+kinomod: Yes. *bonk*  Banned you too.

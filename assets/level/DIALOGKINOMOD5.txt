@@ -1,0 +1,37 @@
+[Speaker kinomod]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker Chris]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[DialogPre]
+start = normal,gone
+intro = 1
+Chris[normal]: kami.
+kinomod: Finally someone gets my name right.
+kinomod: And you must be...
+kinomod: ...!
+Chris: That's right, I'm your beloved-
+kinomod: You're the bastard that fired me before!
+kinomod: Snacks or something!
+Chris: (H- HOW BAD ARE YOUR PEOPLE RECOGNITION SKILLS?!)
+kinomod: Didn't I get rid of you and your mom earlier? Strange.
+Chris: ... you.
+Chris: So it was you.
+Chris: IT WAS YOU WHO BANNED MOMMY!
+kinomod: EHHHH?!
+
+[DialogPost]
+start = normal,normal
+Chris: I think I get it now, you mixed me up with the Australian that imitated me.
+kinomod: Yes. (<- just going along with it)
+Chris: I'm sorry for lashing out, kami.
+Chris: I just wanted to return the Elfen Lied DVD set you lent me and-
+kinomod: YOU HAD THEM?!
+kinomod: THAT'S IT, ROUND 2, YOU AND ME, NOW! GOD MAY FORGIVE THIS, BUT KAMI WON'T!
+Chris: Have meercyy~

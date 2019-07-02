@@ -1,0 +1,46 @@
+[Header]
+Sprites = levels/INTRO.sff
+
+[STORYSTART]
+
+[Image 1]
+Group = 1
+Item = 0
+text.pos = 26, 183
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "yournamehere was unable to stop the chaos going on."
+
+[Text 1]
+Speaker = ""
+Text = "fission: "Another attack on /biz/!""
+
+[Image 1]
+Group = 1
+Item = 1
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "yournamehere: "Is it finally raining bitcoins?! fission, I cannot stand by as the poor people on /biz/ are suffering, I'm setting out immediately!""
+
+[Text 1]
+Speaker = ""
+Text = "Thus, yournamehere set out once again to put an end to the crisis."
+
+[Text 1]
+Speaker = ""
+Text = "Needless to say, he was unable to secure a pile of bitcoins. He only got tons of those coins only like three people have."
+
+[Text 1]
+Speaker = ""
+Text = "Bad Ending #1 ~ Trusting /biz/ won't make you rich."
+
+[Text 1]
+Speaker = ""
+Text = "Try beating the game without continues next time!"
+
+[Title]

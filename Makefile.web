@@ -6,5 +6,13 @@ all: complete
 clean_user:
 	
 PRISM_PATH = ..\addons\prism
-ADDITIONAL_PRELOADS = --preload-file assets
+ADDITIONAL_PRELOADS = \
+--preload-file assets/data@data \
+--preload-file assets/debug@debug \
+--preload-file assets/endings@endings \
+--preload-file assets/font@font \
+--preload-file assets/level@level \
+--preload-file assets/logo@logo \
+--preload-file assets/player@player \
+--preload-file assets/title@title
 include ../addons/prism/Makefile.commonweb

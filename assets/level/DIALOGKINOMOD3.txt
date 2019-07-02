@@ -1,0 +1,32 @@
+[Speaker kinomod]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker Shii]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker fission]
+
+[DialogPre]
+start = normal,gone
+intro = 1
+Shii[normal]: *notices intruder* OwO what's this?
+kinomod: ... Oh! It is you, menchii! I did not recognize you with that outfit on!
+Shii: No, this is my dark alter ego Shii that I keep sealed in my left eye it's-
+kinomod: I have not seen you in ages! What are you up to? Do you want to be a moderator again?
+Shii: Today I am here as an agent of the "Chaos Five", we are-
+kinomod: I still have the DVDs you lent me!
+Shii: Wait, YOU had my Elfen Lied DVD set!?
+Shii: kami... I considered you a friend and rival, but if it's like this, I can't spare you from Ragnarok!
+kinomod: What rock?
+Shii: THIS IS IT, YOU MAKE ME USE "THAT"!
+
+[DialogPost]
+start = normal,gone
+kinomod: Everyone is in a weird mood today. Did something happen?
+kinomod: Wait, why am I here again?
+kinomod: Might as well call it a day and head to the front page to clock out.

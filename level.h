@@ -75,8 +75,15 @@ ActorBlueprint getLevelHandler();
 
 MugenSpriteFile* getLevelSprites();
 MugenAnimations* getLevelAnimations();
+int getCurrentLevel();
 Position getScreenPositionFromGamePosition(Position tPosition);
 Position getScreenPositionFromGamePosition(double x, double y, double z);
+double getScreenPositionFromGamePositionX(double x);
+double getScreenPositionFromGamePositionY(double y);
 int isInGameScreen(const Position& p);
 void endLevel();
 int isLevelEnding();
+
+int isInExtra();
+void startExtra();
+void startGame();

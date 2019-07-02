@@ -5,6 +5,7 @@
 #include "uihandler.h"
 #include "level.h"
 #include "boss.h"
+#include "player.h"
 
 #define DIALOG_Z 85
 
@@ -45,7 +46,7 @@ struct ActiveDialog{
 		mCurrentStep = 0;
 		mSelf = this;
 
-		for (int i = 0; i < 2; i++) mPortraitID[i] = addMugenAnimation(getMugenAnimation(getLevelAnimations(), getSpeaker(i).mMoodAnimations[mData->mBeginMoods[i]]), getLevelSprites(), makePosition(50 + i * 120, 200, DIALOG_Z));
+		for (int i = 0; i < 2; i++) mPortraitID[i] = addMugenAnimation(getMugenAnimation((i == 0) ? getPlayerAnimations() : getLevelAnimations(), getSpeaker(i).mMoodAnimations[mData->mBeginMoods[i]]), (i == 0) ? getPlayerSprites() : getLevelSprites(), makePosition(50 + i * 120, 200, DIALOG_Z));
 		mTextBoxID = addMugenAnimation(getMugenAnimation(getUIAnimations(), 1000), getUISprites(), makePosition(96 + 16, 220, DIALOG_Z + 1));
 		mNameTextID = addMugenTextMugenStyle("", makePosition(60, 174, DIALOG_Z + 2), makeVector3DI(4, 0, 1));
 		mTextTextID = addMugenTextMugenStyle("", makePosition(60, 184, DIALOG_Z + 2), makeVector3DI(3, 0, 1));
@@ -96,7 +97,7 @@ struct ActiveDialog{
 			mIntroNow++;
 		}
 		else {
-			if (hasPressedAFlank()) {
+			if (hasPressedAFlank() || hasPressedB()) {
 				if (!isMugenTextBuiltUp(mTextTextID)) {
 					setMugenTextBuiltUp(mTextTextID);
 				}
@@ -236,17 +237,21 @@ static void loadDialogFromScript(MugenDefScript& tScript) {
 
 static void loadDialogHandler(void* tData) {
 	(void)tData;
+	gDialogHandler.mSpeakers.clear();
 	gDialogHandler.mActiveDialog = nullptr;
 	gDialogHandler.mPreDialog = Dialog();
 	gDialogHandler.mPostDialog = Dialog();
 
+	stringstream ss;
+	ss << "level/DIALOG" << getPlayerName() << getCurrentLevel() << ".txt";
 	MugenDefScript script;
-	loadMugenDefScript(&script, "level/DIALOG0.txt");
+	loadMugenDefScript(&script, ss.str().data());
 	loadDialogFromScript(script);
 }
 
 static void unloadDialogHandler(void* tData) {
 	(void)tData;
+	gDialogHandler.mSpeakers.clear();
 	gDialogHandler.mActiveDialog = nullptr;
 	gDialogHandler.mPreDialog = Dialog();
 	gDialogHandler.mPostDialog = Dialog();

@@ -1,0 +1,9 @@
+[Section intro]
+
+
+[Intro]
+time = 60
+name = "/a/ - Anime & Manga"
+text = "All the stars in the sky"
+
+[WaitIntro]

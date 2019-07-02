@@ -1,0 +1,17 @@
+[Section 4]
+
+[Enemy 1]
+time = 0
+name = "enemyBig"
+speed = 0.2
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.3
+p3.pos = 0.5,0.3
+p4.pos = 0.5,0.3
+p5.pos = 0.5,-0.1
+s1.time = 60
+s1.name = "lily_white"
+s2.time = 999
+power = 10
+score = 5

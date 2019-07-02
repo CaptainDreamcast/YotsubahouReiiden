@@ -1,0 +1,38 @@
+[Speaker Aerolite]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker ACK]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker cygnus]
+
+[DialogPre]
+start = normal,gone
+Aerolite: Have no fear, Aerolite is here!
+cygnus: Bro...
+Aerolite: It's no christmas--- without cygnus!
+cygnus: B- Bro.
+Aerolite: Huh? Something is coming?
+intro = 1
+ACK[normal]: AKEMI!
+Aerolite: Eeeek! 
+cygnus: BRO!
+Aerolite: No, that was an excited eek!
+Aerolite: That's THE ACK! He's a serial ban evader! His dedication to annoy us on IRC and the boards is second to NONE!
+ACK: A- akemi. Please stop. You're scaring me.
+Aerolite: Man I NEVER got to ban him before, this will be SO cool!
+Aerolite: I'm so glad the cyber prison broke!
+cygnus: Bro...
+ACK: You're right, Akemi seems way to excited about this.
+Aerolite: ACK BAN, ACK BAN!
+
+[DialogPost]
+start = normal,gone
+Aerolite: Did you see that cygnus, he exploded! Do people usually explode when they get banned?
+cygnus: Bro.
+Aerolite: Don't worry, he'll be fine, he's come back from worse things! Probably!

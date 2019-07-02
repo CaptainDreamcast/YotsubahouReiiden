@@ -1,0 +1,32 @@
+[Speaker Aerolite]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker Shii]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker cygnus]
+
+[DialogPre]
+start = normal,gone
+intro = 1
+Shii[normal]: OwO what's this? *notices intruder*
+Aerolite: Is that you, menchii? The former moderator that got the site down in 2003?
+Shii: I remember your aura!! You're Aerolite! You were a janitor back then!
+Shii: *teleports behind you* You've done enough for the day. Leave this to your senpais.
+Aerolite: WHERE ARE YOU TOUCHING?!
+cygnus: BRO!
+Aerolite: You're right cygnus, something is off! 
+Aerolite: You have your eyepatch on- Have you unsealed the power of evil living in your left eye?!
+Shii: (Y- you remembered my chuuni fantasy?!)
+
+[DialogPost]
+start = normal,gone
+Aerolite: Banning a fellow moderator felt surprisingly well.
+Aerolite: Tasted like chicken.
+cygnus: B- bro?
+

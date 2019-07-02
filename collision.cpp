@@ -22,6 +22,7 @@ void loadGameCollisions()
 	gGameCollisionData.mPlayerCollectionList = addCollisionListToHandler();
 	gGameCollisionData.mItemList = addCollisionListToHandler();
 	addCollisionHandlerCheck(gGameCollisionData.mPlayerList, gGameCollisionData.mEnemyShotList);
+	addCollisionHandlerCheck(gGameCollisionData.mPlayerList, gGameCollisionData.mEnemyList);
 	addCollisionHandlerCheck(gGameCollisionData.mEnemyList, gGameCollisionData.mPlayerShotList);
 	addCollisionHandlerCheck(gGameCollisionData.mPlayerCollectionList, gGameCollisionData.mItemList);
 }

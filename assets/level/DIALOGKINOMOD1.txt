@@ -1,0 +1,32 @@
+[Speaker kinomod]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker Accelerator]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker ABIB]
+
+[DialogPre]
+start = normal,gone
+kinomod: I am lost. Why did nobody tell me I was going the wrong way?
+intro = 1
+Accelerator[normal]: Halt villain! Your rampaging ends here!
+kinomod: Hey, do you know where I can find some image board villains?
+Accelerator: Well, I'm no villain, but you'll probably recognize the name Accelerator!
+kinomod: ... Who?
+Accelerator: A- Accelerator? I spammed /a/ really really hard. You must have heard of me?
+kinomod: I can name 50 people from the top of my head who fit the description.
+kinomod: ... Are you that bald guy who loves 10bit encoding?
+Accelerator: NO! I'M ACCELERATOR!
+kinomod: Hi Accelerator, do you know where I can find some image board villains?
+Accelerator: YEAH! IN HELL!
+
+[DialogPost]
+start = normal,gone
+kinomod: ... Hell? Oh! He must mean /int/!
+kinomod: I'll try my luck there! Thanks Lelouch!

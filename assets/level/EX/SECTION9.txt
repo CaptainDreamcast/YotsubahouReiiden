@@ -1,0 +1,55 @@
+
+[Section two lines]
+
+[Enemy 1]
+time = 10
+name = "enemyBig"
+speed = 0.2
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.2
+p2.duration = 120
+p3.pos = 0.5,-0.1
+s1.time = 120
+s1.name = "enemy_final_4"
+s1.frequency = 1
+s2.time = 1
+power = 100
+life = 700
+
+[Section two lines]
+
+[Enemy 1]
+time = 10
+name = "enemyBig"
+speed = 0.2
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.2
+p2.duration = 120
+p3.pos = 0.5,-0.1
+s1.time = 120
+s1.name = "enemy_final_5"
+s1.frequency = 1
+s2.time = 1
+power = 100
+life = 700
+
+[Section two lines]
+
+[Enemy 1]
+time = 10
+name = "enemyBig"
+speed = 0.2
+radius = 5
+p1.pos = 0.5,-0.1
+p2.pos = 0.5,0.2
+p2.duration = 120
+p3.pos = 0.5,-0.1
+s1.time = 120
+s1.name = "enemy_final_6"
+s1.frequency = 1
+s2.time = 1
+power = 100
+life = 700
+

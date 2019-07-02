@@ -1,0 +1,7 @@
+
+
+[Section 2]
+
+[Boss]
+name = "dummy"
+time = 20

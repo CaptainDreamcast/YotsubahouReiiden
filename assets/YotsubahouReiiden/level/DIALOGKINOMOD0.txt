@@ -1,0 +1,37 @@
+[Speaker kinomod]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker ACK]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker ABIB]
+
+[DialogPre]
+start = normal,gone
+ABIB: Kami, it's time to accept you have no idea where you're going!
+kinomod: You know, you have been rude for quite some time now, man in the radio. Who do you think you are?
+intro=1
+ACK[normal]: AKEMI! 
+kinomod: AH, so that is who it was!
+ABIB: Wait what do you mean? DON-
+*click*
+kinomod: I dodged a bullet there. Thank you stranger, and who might you be?
+ACK: As if you don't know, Akemi!
+kinomod: You are Akemi? I was just on the radio with you?
+ACK: NO! YOU'RE AKEMI!
+kinomod: I am Akemi? I was on the radio with MYSELF?!
+ACK: Yes, that's what you always do, Akemi. Pretending you're not the only one ruining this place.
+kinomod: Oh, THIS is what you are talking about! Just say so right away!
+kinomod: One five-year-ban, coming right up!
+ACK: ...eh?
+
+[DialogPost]
+start = normal,gone
+kinomod: Hmm, I guess I will never find out who the man on the radio was.
+kinomod: ...!
+kinomod: Strange, it feels like someone just exploded in rage somewhere.

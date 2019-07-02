@@ -1,0 +1,115 @@
+[Header]
+Sprites = levels/INTRO.sff
+
+[STORYSTART]
+
+[Image 1]
+Group = 1
+Item = 0
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "The server gave out during hiro's and yournamehere's clash and the entire site was down for a day."
+
+[Text 1]
+Speaker = ""
+Text = "fission, in charge of fixing the servers, cried bloody tears."
+
+[Image 1]
+Group = 1
+Item = 1
+text.pos = 10, 200
+text.width = 300
+
+[Text 1]
+Speaker = ""
+Text = "Meanwhile, hiro and yournamehere used the time to have a heart-to-heart conversation."
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "So what you mean is, despite them all being horribleux people, we should cherish them because they make the site what it is?""
+
+[Text 1]
+Speaker = ""
+Text = "yournamehere: "We just began our conversation and I hadn't said anything but sure.""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "Mince frommage... I just wanted the site to make a little money, was that so wrong?""
+
+[Text 1]
+Speaker = ""
+Text = "yournamehere: "Yes.""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "...""
+
+[Text 1]
+Speaker = ""
+Text = "yournamehere: "...""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "...""
+
+[Text 1]
+Speaker = ""
+Text = "yournamehere: "What I mean is no. But doing it by splitting the people is always a bad idea.""
+
+[Text 1]
+Speaker = ""
+Text = "hiro: "Splitting... splitting... AH!""
+
+[Text 1]
+Speaker = ""
+Text = "yournamehere: "I have a terrible feeling about this.""
+
+[Image 1]
+Group = 1
+Item = 2
+text.pos = 26, 194
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "Hiro would eventually try to bring back advertisers by splitting the site into an unadvertisable NSFW section and a "safe site" for advertisers."
+
+[Text 1]
+Speaker = ""
+Text = "To everyone's surprise... it worked!"
+
+[Text 1]
+Speaker = ""
+Text = "Of course, the workload for yournamehere has only increased since then."
+
+[Image 1]
+Group = 1
+Item = 3
+text.pos = 26, 18
+text.width = 280
+
+[Text 1]
+Speaker = ""
+Text = "Anonymous user: "I've been waiting on my appeal for TWELVE hours! Why are you always so GODDAMN lazy?""
+
+[Text 1]
+Speaker = ""
+Text = "yournamehere: "OH. HOW. I. LOVE. MY. FRIENDS.""
+
+[Text 1]
+Speaker = ""
+Text = "But you can now buy passes with paypal again, so all's well that ends well."
+
+[Text 1]
+Speaker = ""
+Text = "Good Ending #1 ~ What really happened."
+
+[Text 1]
+Speaker = ""
+Text = "You beat the game without continues! Congratulations! All that's left is the encounter with an old friend in the extra stage!"
+
+
+[Title]

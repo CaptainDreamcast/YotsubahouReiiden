@@ -1,0 +1,34 @@
+[Speaker Aerolite]
+normal = 5001
+angry = 5001
+happy = 5001
+
+[Speaker Accelerator]
+normal = 5002
+angry = 5002
+happy = 5002
+gone = -1
+
+[Speaker cygnus]
+
+[DialogPre]
+start = normal,gone
+Aerolite: Look, look, it's /a/!
+Cygnus: Bro...
+intro = 1
+Accelerator[normal]: Halt villain! Your rampaging ends here!
+Accelerator: Huh huh huh, you've probably heard of me, I am-
+Aerolite: ACCELERATOR!
+Accelerator: W- wait, you know?
+Aerolite: The /a/ spammer, how could I not know!
+Accelerator: So you have heard of my heroic exploits and how I defeated the evil modera-
+Aerolite: If I ban you, everyone will praise me for sure!
+Accelerator: W- wait, ban?
+Aerolite: I wonder if you're going to explode too!
+Accelerator: E- explode?!
+Accelerator: Is it too late to go back into cyber prison?
+
+[DialogPost]
+start = normal,gone
+cygnus: Bro-
+Aerolite: Hahaha, don't worry! He's in a better place now!
